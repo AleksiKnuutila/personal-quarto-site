@@ -8,6 +8,12 @@ format:
   html:
     quarto-template-params:
       banner-header-class: "home"
+listing:
+  - id: articles
+    contents: "research/articles/*/index.qmd"
+    sort: "date desc"
+    template: html/research/listing.ejs
+    categories: false
 ---
 
 ::: {.grid}
@@ -40,4 +46,7 @@ I teach courses on [program evaluation and causal inference](https://evalf22.cla
 
 :::
 
+:::
+
+:::{#articles}
 :::
