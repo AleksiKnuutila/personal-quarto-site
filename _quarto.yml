@@ -18,36 +18,36 @@ project:
 
     # Things that need to be at the site root
     - ".htaccess"
-    - "LiveSearchSiteAuth.xml"
-    - "keybase.txt"
-    - "y_key_31e0c4105fc75710.html"
-    - "pgp_ath.asc.txt"
+    #- "LiveSearchSiteAuth.xml"
+    #- "keybase.txt"
+    #- "y_key_31e0c4105fc75710.html"
+    #- "pgp_ath.asc.txt"
 
 freeze: true
 
 bibliography: files/bib/references.bib
-csl: files/bib/chicago-author-date.csl
+#csl: files/bib/chicago-author-date.csl
 
 # Metadata stuff
-pagetitle: "{{< meta title >}} | Andrew Heiss"
-description-meta: "Andrew Heiss is an assistant professor at Georgia State University, researching international NGOs and teaching data science & economics."
-author-meta: "Andrew Heiss"
+pagetitle: "{{< meta title >}} | Aleksi Knuutila"
+description-meta: "Aleksi Knuutila is a Senior Researcher in Sociology at the University of Helsinki"
+author-meta: "Aleksi Knuutila"
 
 website:
-  title: "Andrew Heiss"
+  title: "Aleksi Knuutila"
   description: "{{< meta description-meta >}}"
   favicon: "/files/favicon-512.png"
-  site-url: "https://www.andrewheiss.com"
-  repo-url: "https://github.com/andrewheiss/ath-quarto"
+  site-url: "https://knuutila.net"
+  repo-url: "https://github.com/AleksiKnuutila/personal-quarto-site"
 
-  google-analytics: "UA-527449-5"
+  #google-analytics: ""
 
   twitter-card: 
     image: "/files/profiles/twitter-card-large.png"
     description: "{{< meta description-meta >}}"
     card-style: summary_large_image
-    creator: "@andrewheiss"
-    site: "@andrewheiss"
+    creator: "@knuutila"
+    site: "@knuutila"
 
   open-graph: 
     image: "/files/profiles/twitter-card-large.png"
@@ -60,20 +60,12 @@ website:
     left:
       - text: "About"
         href: "index.qmd"
-      - text: "CV"
-        href: "cv/index.qmd"
       - text: "Blog"
         file: blog/index.qmd
       - text: "Research"
         file: research/index.qmd
-      - text: "Teaching"
-        href: "teaching/index.qmd"
       - text: "Talks"
         href: "talks/index.qmd"
-      - text: "Now"
-        href: now/index.qmd
-      - text: "Uses"
-        file: uses/index.qmd
     
     right:
       - icon: rss
@@ -81,40 +73,29 @@ website:
         href: atom.xml
       - icon: envelope
         aria-label: email
-        href: "mailto:aheiss@gsu.edu"
+        href: "mailto:aleksi.knuutila@helsinki.fi"
       - icon: twitter
         aria-label: twitter
-        href: https://twitter.com/andrewheiss
+        href: https://twitter.com/knuutila
         rel: me
-      - icon: mastodon
-        aria-label: mastodon
-        href: https://fediscience.org/users/andrew/
-        rel: me
+      #- icon: mastodon
+      #  aria-label: mastodon
+      #  href: https://fediscience.org/users
+      #  rel: me
       - icon: github
         aria-label: github
-        href: https://github.com/andrewheiss
-        rel: me
-      - icon: youtube
-        aria-label: youtube
-        href: https://www.youtube.com/andrewheiss
-        rel: me
-      - icon: postage-heart-fill
-        aria-label: family
-        href: https://www.heissatopia.com/
-      - icon: linkedin
-        aria-label: linkedin
-        href: https://www.linkedin.com/in/andrewheiss
+        href: https://github.com/AleksiKnuutila
         rel: me
   
   page-footer:
     left: |
-      <span class="faux-block">{{< fa brands creative-commons >}} {{< var years >}} Andrew Heiss</span>
+      <span class="faux-block">{{< fa brands creative-commons >}} {{< var years >}} Aleksi Knuutila</span>
       <span class="faux-block">All content licensed under<br>[{{< fa brands creative-commons >}} {{< fa brands creative-commons-by >}} Creative Commons CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)</span>      
-    center: |
-      <span class="faux-block">{{< fa brands orcid >}} <strong>ORCID</strong> [{{< var orcid >}}](https://orcid.org/{{< var orcid >}})</span>
-      <span class="faux-block">{{< fa key >}} [PGP public key]({{< var pgp.key >}}) &emsp; {{< fa fingerprint >}} Fingerprint:</strong><br><span class="fingerprint">{{< var pgp.fingerprint >}}</span></span>
+    #center: |
+    #  <span class="faux-block">{{< fa brands orcid >}} <strong>ORCID</strong> [{{< var orcid >}}](https://orcid.org/{{< var orcid >}})</span>
+    #  <span class="faux-block">{{< fa key >}} [PGP public key]({{< var pgp.key >}}) &emsp; {{< fa fingerprint >}} Fingerprint:</strong><br><span class="fingerprint">{{< var pgp.fingerprint >}}</span></span>
     right: |
-      <span class="faux-block">Made with {{< fa brands r-project >}} and [Quarto](https://quarto.org/)</span>
+      <span class="faux-block">Made with [Quarto](https://quarto.org/)</span>
       <span class="faux-block">[View the source at {{< fa brands github >}} GitHub]({{< var github-url >}})</span>
 
 format:
