@@ -1,7 +1,39 @@
 [
   {
-    "listing": "/talks/index.html",
+    "listing": "/teaching/index.html",
     "items": []
+  },
+  {
+    "listing": "/blog/index.html",
+    "items": [
+      "/blog/2023/08/15/matrix-multiply-logit-predict/index.html",
+      "/blog/2023/08/12/conjoint-multilevel-multinomial-guide/index.html",
+      "/blog/2023/07/28/gradient-map-fills-r-sf/index.html",
+      "/blog/2023/07/25/conjoint-bayesian-frequentist-guide/index.html",
+      "/blog/2023/07/03/using-google-location-history-with-r-roadtrip/index.html",
+      "/blog/2023/06/01/geocoding-routing-openstreetmap-r/index.html",
+      "/blog/2023/05/15/fancy-bayes-diffs-props/index.html",
+      "/blog/2023/04/26/middle-earth-mapping-sf-r-gis/index.html",
+      "/blog/2023/03/21/aragorn-dunedan-numenorean-simulation/index.html",
+      "/blog/2023/01/09/syllabus-csl-pandoc/index.html",
+      "/blog/2023/01/08/bibdesk-to-zotero-pandoc/index.html"
+    ]
+  },
+  {
+    "listing": "/atom.html",
+    "items": [
+      "/blog/2023/08/15/matrix-multiply-logit-predict/index.html",
+      "/blog/2023/08/12/conjoint-multilevel-multinomial-guide/index.html",
+      "/blog/2023/07/28/gradient-map-fills-r-sf/index.html",
+      "/blog/2023/07/25/conjoint-bayesian-frequentist-guide/index.html",
+      "/blog/2023/07/03/using-google-location-history-with-r-roadtrip/index.html",
+      "/blog/2023/06/01/geocoding-routing-openstreetmap-r/index.html",
+      "/blog/2023/05/15/fancy-bayes-diffs-props/index.html",
+      "/blog/2023/04/26/middle-earth-mapping-sf-r-gis/index.html",
+      "/blog/2023/03/21/aragorn-dunedan-numenorean-simulation/index.html",
+      "/blog/2023/01/09/syllabus-csl-pandoc/index.html",
+      "/blog/2023/01/08/bibdesk-to-zotero-pandoc/index.html"
+    ]
   },
   {
     "listing": "/research/index.html",
@@ -31,39 +63,7 @@
     ]
   },
   {
-    "listing": "/atom.html",
-    "items": [
-      "/blog/2023/08/15/matrix-multiply-logit-predict/index.html",
-      "/blog/2023/08/12/conjoint-multilevel-multinomial-guide/index.html",
-      "/blog/2023/07/28/gradient-map-fills-r-sf/index.html",
-      "/blog/2023/07/25/conjoint-bayesian-frequentist-guide/index.html",
-      "/blog/2023/07/03/using-google-location-history-with-r-roadtrip/index.html",
-      "/blog/2023/06/01/geocoding-routing-openstreetmap-r/index.html",
-      "/blog/2023/05/15/fancy-bayes-diffs-props/index.html",
-      "/blog/2023/04/26/middle-earth-mapping-sf-r-gis/index.html",
-      "/blog/2023/03/21/aragorn-dunedan-numenorean-simulation/index.html",
-      "/blog/2023/01/09/syllabus-csl-pandoc/index.html",
-      "/blog/2023/01/08/bibdesk-to-zotero-pandoc/index.html"
-    ]
-  },
-  {
-    "listing": "/blog/index.html",
-    "items": [
-      "/blog/2023/08/15/matrix-multiply-logit-predict/index.html",
-      "/blog/2023/08/12/conjoint-multilevel-multinomial-guide/index.html",
-      "/blog/2023/07/28/gradient-map-fills-r-sf/index.html",
-      "/blog/2023/07/25/conjoint-bayesian-frequentist-guide/index.html",
-      "/blog/2023/07/03/using-google-location-history-with-r-roadtrip/index.html",
-      "/blog/2023/06/01/geocoding-routing-openstreetmap-r/index.html",
-      "/blog/2023/05/15/fancy-bayes-diffs-props/index.html",
-      "/blog/2023/04/26/middle-earth-mapping-sf-r-gis/index.html",
-      "/blog/2023/03/21/aragorn-dunedan-numenorean-simulation/index.html",
-      "/blog/2023/01/09/syllabus-csl-pandoc/index.html",
-      "/blog/2023/01/08/bibdesk-to-zotero-pandoc/index.html"
-    ]
-  },
-  {
-    "listing": "/teaching/index.html",
+    "listing": "/talks/index.html",
     "items": []
   }
 ]
