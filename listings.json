@@ -1,0 +1,69 @@
+[
+  {
+    "listing": "/talks/index.html",
+    "items": []
+  },
+  {
+    "listing": "/research/index.html",
+    "items": [
+      "/research/articles/seta-2023/index.html",
+      "/research/articles/chaudhry-heiss-ngos-repression/index.html",
+      "/research/articles/chaudhry-dotson-heiss-2021/index.html",
+      "/research/articles/peck-heiss-2021/index.html",
+      "/research/articles/chaudhry-heiss-ngos-philanthropy/index.html",
+      "/research/articles/heiss-2019-taking-control/index.html",
+      "/research/articles/heiss-kelley-2017/index.html",
+      "/research/articles/heiss-kelley-2017a/index.html",
+      "/research/articles/heiss-johnson-2016/index.html",
+      "/research/articles/witesman-heiss-2016/index.html",
+      "/research/articles/heiss-2012/index.html",
+      "/research/working-papers/heiss-amicable-contempt/index.html",
+      "/research/working-papers/chaudhry-comstock-heiss-pandemic-pass/index.html",
+      "/research/working-papers/chaudhry-dotson-heiss-why-donors-donate/index.html",
+      "/research/working-papers/chaudhry-heiss-ngos-aid/index.html",
+      "/research/working-papers/arel-bundock-greifer-heiss-mfxplainer/index.html",
+      "/research/working-papers/heiss-program-capture-ingos/index.html",
+      "/research/working-papers/heiss-ye-china-ongos/index.html",
+      "/research/working-papers/heiss-mission-money-environment/index.html",
+      "/research/working-papers/heiss-nafa-bayes-ipw/index.html",
+      "/research/working-papers/heiss-ye-np-causal-inference/index.html",
+      "/research/working-papers/chaudhry-heiss-derogations/index.html"
+    ]
+  },
+  {
+    "listing": "/atom.html",
+    "items": [
+      "/blog/2023/08/15/matrix-multiply-logit-predict/index.html",
+      "/blog/2023/08/12/conjoint-multilevel-multinomial-guide/index.html",
+      "/blog/2023/07/28/gradient-map-fills-r-sf/index.html",
+      "/blog/2023/07/25/conjoint-bayesian-frequentist-guide/index.html",
+      "/blog/2023/07/03/using-google-location-history-with-r-roadtrip/index.html",
+      "/blog/2023/06/01/geocoding-routing-openstreetmap-r/index.html",
+      "/blog/2023/05/15/fancy-bayes-diffs-props/index.html",
+      "/blog/2023/04/26/middle-earth-mapping-sf-r-gis/index.html",
+      "/blog/2023/03/21/aragorn-dunedan-numenorean-simulation/index.html",
+      "/blog/2023/01/09/syllabus-csl-pandoc/index.html",
+      "/blog/2023/01/08/bibdesk-to-zotero-pandoc/index.html"
+    ]
+  },
+  {
+    "listing": "/blog/index.html",
+    "items": [
+      "/blog/2023/08/15/matrix-multiply-logit-predict/index.html",
+      "/blog/2023/08/12/conjoint-multilevel-multinomial-guide/index.html",
+      "/blog/2023/07/28/gradient-map-fills-r-sf/index.html",
+      "/blog/2023/07/25/conjoint-bayesian-frequentist-guide/index.html",
+      "/blog/2023/07/03/using-google-location-history-with-r-roadtrip/index.html",
+      "/blog/2023/06/01/geocoding-routing-openstreetmap-r/index.html",
+      "/blog/2023/05/15/fancy-bayes-diffs-props/index.html",
+      "/blog/2023/04/26/middle-earth-mapping-sf-r-gis/index.html",
+      "/blog/2023/03/21/aragorn-dunedan-numenorean-simulation/index.html",
+      "/blog/2023/01/09/syllabus-csl-pandoc/index.html",
+      "/blog/2023/01/08/bibdesk-to-zotero-pandoc/index.html"
+    ]
+  },
+  {
+    "listing": "/teaching/index.html",
+    "items": []
+  }
+]

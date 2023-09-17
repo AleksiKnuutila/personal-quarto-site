@@ -1,0 +1,1333 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Aleksi Knuutila">
+<meta name="description" content="Andrew Heiss’s blog">
+
+<title>Blog | Aleksi Knuutila</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="..//files/favicon-512.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-posts_2023 .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-project','listing-freeze','listing-bibliography','listing-pagetitle','listing-description-meta','listing-author-meta','listing-website','listing-format','listing-_quarto-vars','listing-language','listing-date-format','listing-title-block-banner','listing-toc','listing-toc-title','listing-toc-location','listing-execute','listing-author','listing-title','listing-date','listing-description','listing-image','listing-twitter-card','listing-open-graph','listing-categories','listing-doi','listing-citation','listing-path','listing-outputHref','listing-date-modified','listing-filename','listing-file-modified','listing-reading-time','listing-references','listing-resources','listing-toc-depth',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] }],
+      
+      searchColumns: ["listing-project","listing-freeze","listing-bibliography","listing-pagetitle","listing-description-meta","listing-author-meta","listing-website","listing-format","listing-_quarto-vars","listing-language","listing-date-format","listing-title-block-banner","listing-toc","listing-toc-title","listing-toc-location","listing-execute","listing-author","listing-title","listing-date","listing-description","listing-image","listing-twitter-card","listing-open-graph","listing-categories","listing-doi","listing-citation","listing-path","listing-outputHref","listing-date-modified","listing-filename","listing-file-modified","listing-reading-time","listing-references","listing-resources","listing-toc-depth"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-posts_2023'] = new List('listing-posts_2023', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-posts_2022 .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: [{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: [],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-posts_2022'] = new List('listing-posts_2022', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-posts_2021 .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: [{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: [],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-posts_2021'] = new List('listing-posts_2021', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-posts_2020 .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: [{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: [],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-posts_2020'] = new List('listing-posts_2020', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-posts_2019 .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: [{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: [],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-posts_2019'] = new List('listing-posts_2019', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-posts_2018 .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: [{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: [],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-posts_2018'] = new List('listing-posts_2018', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-posts_2017 .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: [{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: [],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-posts_2017'] = new List('listing-posts_2017', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-posts_2016 .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: [{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: [],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-posts_2016'] = new List('listing-posts_2016', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-posts_2013 .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: [{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: [],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-posts_2013'] = new List('listing-posts_2013', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-posts_2012 .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: [{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: [],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-posts_2012'] = new List('listing-posts_2012', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-posts_2011 .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: [{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: [],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-posts_2011'] = new List('listing-posts_2011', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-posts_2010 .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: [{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: [],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-posts_2010'] = new List('listing-posts_2010', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-posts_2009 .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: [{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: [],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-posts_2009'] = new List('listing-posts_2009', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-posts_2007 .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: [{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: [],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-posts_2007'] = new List('listing-posts_2007', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+<style>
+
+      .quarto-title-block .quarto-title-banner {
+        background: #170C3A;
+      }
+</style>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<meta property="og:title" content="Blog | Aleksi Knuutila">
+<meta property="og:description" content="Andrew Heiss’s blog">
+<meta property="og:image" content="https://knuutila.net/files/profiles/twitter-card-large.png">
+<meta property="og:site-name" content="Aleksi Knuutila">
+<meta property="og:locale" content="en_US">
+<meta property="og:image:height" content="1257">
+<meta property="og:image:width" content="2401">
+<meta name="twitter:title" content="Blog | Aleksi Knuutila">
+<meta name="twitter:description" content="Andrew Heiss’s blog">
+<meta name="twitter:image" content="https://knuutila.net/files/profiles/twitter-card-large.png">
+<meta name="twitter:creator" content="@knuutila">
+<meta name="twitter:site" content="@knuutila">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image-height" content="1257">
+<meta name="twitter:image-width" content="2401">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Aleksi Knuutila</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html" rel="" target="">
+ <span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../blog/index.html" rel="" target="" aria-current="page">
+ <span class="menu-text">Blog</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../research/index.html" rel="" target="">
+ <span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../talks/index.html" rel="" target="">
+ <span class="menu-text">Talks</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="../atom.xml" rel="" target=""><i class="bi bi-rss" role="img" aria-label="rss">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="mailto:aleksi.knuutila@helsinki.fi" rel="" target=""><i class="bi bi-envelope" role="img" aria-label="email">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/knuutila" rel="me" target=""><i class="bi bi-twitter" role="img" aria-label="twitter">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/AleksiKnuutila" rel="me" target=""><i class="bi bi-github" role="img" aria-label="github">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default blog-post page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-page-left">
+      <h1 class="title">Blog</h1>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Year</h2>
+   
+  <ul>
+  <li><a href="#section" id="toc-section" class="nav-link active" data-scroll-target="#section">2023</a></li>
+  <li><a href="#section-1" id="toc-section-1" class="nav-link" data-scroll-target="#section-1">2022</a></li>
+  <li><a href="#section-2" id="toc-section-2" class="nav-link" data-scroll-target="#section-2">2021</a></li>
+  <li><a href="#section-3" id="toc-section-3" class="nav-link" data-scroll-target="#section-3">2020</a></li>
+  <li><a href="#section-4" id="toc-section-4" class="nav-link" data-scroll-target="#section-4">2019</a></li>
+  <li><a href="#section-5" id="toc-section-5" class="nav-link" data-scroll-target="#section-5">2018</a></li>
+  <li><a href="#section-6" id="toc-section-6" class="nav-link" data-scroll-target="#section-6">2017</a></li>
+  <li><a href="#section-7" id="toc-section-7" class="nav-link" data-scroll-target="#section-7">2016</a></li>
+  <li><a href="#section-8" id="toc-section-8" class="nav-link" data-scroll-target="#section-8">2013</a></li>
+  <li><a href="#section-9" id="toc-section-9" class="nav-link" data-scroll-target="#section-9">2012</a></li>
+  <li><a href="#section-10" id="toc-section-10" class="nav-link" data-scroll-target="#section-10">2011</a></li>
+  <li><a href="#section-11" id="toc-section-11" class="nav-link" data-scroll-target="#section-11">2010</a></li>
+  <li><a href="#section-12" id="toc-section-12" class="nav-link" data-scroll-target="#section-12">2009</a></li>
+  <li><a href="#section-13" id="toc-section-13" class="nav-link" data-scroll-target="#section-13">2007</a></li>
+  </ul>
+</nav>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(11)</span></div><div class="category" data-category="bayes">bayes <span class="quarto-category-count">(1)</span></div><div class="category" data-category="brms">brms <span class="quarto-category-count">(4)</span></div><div class="category" data-category="categorical data">categorical data <span class="quarto-category-count">(1)</span></div><div class="category" data-category="citations">citations <span class="quarto-category-count">(2)</span></div><div class="category" data-category="ggplot">ggplot <span class="quarto-category-count">(8)</span></div><div class="category" data-category="gis">gis <span class="quarto-category-count">(4)</span></div><div class="category" data-category="maps">maps <span class="quarto-category-count">(4)</span></div><div class="category" data-category="markdown">markdown <span class="quarto-category-count">(2)</span></div><div class="category" data-category="nerdery">nerdery <span class="quarto-category-count">(2)</span></div><div class="category" data-category="pandoc">pandoc <span class="quarto-category-count">(2)</span></div><div class="category" data-category="r">r <span class="quarto-category-count">(9)</span></div><div class="category" data-category="regression">regression <span class="quarto-category-count">(1)</span></div><div class="category" data-category="simulations">simulations <span class="quarto-category-count">(1)</span></div><div class="category" data-category="stan">stan <span class="quarto-category-count">(3)</span></div><div class="category" data-category="statistics">statistics <span class="quarto-category-count">(3)</span></div><div class="category" data-category="surveys">surveys <span class="quarto-category-count">(1)</span></div><div class="category" data-category="tidyverse">tidyverse <span class="quarto-category-count">(8)</span></div><div class="category" data-category="writing">writing <span class="quarto-category-count">(2)</span></div><div class="category" data-category="zotero">zotero <span class="quarto-category-count">(2)</span></div></div></div>
+<!-- main -->
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+
+
+
+
+<section id="section" class="level2">
+<h2 class="anchored" data-anchor-id="section">2023</h2>
+<div id="listing-posts_2023" class="quarto-listing quarto-listing-container-custom">
+
+<div class="list blog">
+    <div class="blog-entry" data-index="0" data-categories="r,statistics,regression" data-listing-date-sort="1692046800000" data-listing-file-modified-sort="1694806240915" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
+        <div class="metadata">          
+            <p class="date listing-date">August 15, 2023</p>
+        </div>
+        <div class="body">
+            <p class="title listing-title"><a href="../blog/2023/08/15/matrix-multiply-logit-predict/index.html">Manually generate predicted values for logistic regression with matrix multiplication in R</a></p>
+            <div class="post-categories listing-categories">
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('r'); return false;">
+                    r
+                </div>
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('statistics'); return false;">
+                    statistics
+                </div>
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('regression'); return false;">
+                    regression
+                </div>
+            </div>
+            <p class="description listing-description">This is like basic stats stuff, but I can never remember how to do it—here's how to use matrix multiplication to replicate the results of `predict()`</p>
+            <p class="post-doi"><img src="../files/doi.svg" class="doi-icon img-fluid" alt="DOI"> <a href="https://doi.org/10.59350/qba9a-b3561" target="_blank" rel="noopener noreferrer">10.59350/qba9a-b3561</a></p>
+        </div>
+        <div class="thumbnail">
+            <img src="../blog/2023/08/15/matrix-multiply-logit-predict/social-image.png" alt="Manually generate predicted values for logistic regression with matrix multiplication in R" title="Manually generate predicted values for logistic regression with matrix multiplication in R">
+        </div>
+    </div>
+    <div class="blog-entry" data-index="1" data-categories="r,tidyverse,ggplot,statistics,brms,stan" data-listing-date-sort="1691787600000" data-listing-file-modified-sort="1694806240905" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="420">
+        <div class="metadata">          
+            <p class="date listing-date">August 12, 2023</p>
+        </div>
+        <div class="body">
+            <p class="title listing-title"><a href="../blog/2023/08/12/conjoint-multilevel-multinomial-guide/index.html">The ultimate practical guide to multilevel multinomial conjoint analysis with R</a></p>
+            <div class="post-categories listing-categories">
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('r'); return false;">
+                    r
+                </div>
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('tidyverse'); return false;">
+                    tidyverse
+                </div>
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('ggplot'); return false;">
+                    ggplot
+                </div>
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('statistics'); return false;">
+                    statistics
+                </div>
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('brms'); return false;">
+                    brms
+                </div>
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('stan'); return false;">
+                    stan
+                </div>
+            </div>
+            <p class="description listing-description">Learn how to use R, {brms}, {marginaleffects}, and {tidybayes} to analyze discrete choice conjoint data with fully specified hierarchical multilevel multinomial models</p>
+            <p class="post-doi"><img src="../files/doi.svg" class="doi-icon img-fluid" alt="DOI"> <a href="https://doi.org/10.59350/2mz75-rrc46" target="_blank" rel="noopener noreferrer">10.59350/2mz75-rrc46</a></p>
+        </div>
+        <div class="thumbnail">
+            <img src="../blog/2023/08/12/conjoint-multilevel-multinomial-guide/index_files/figure-html/plot-amces-minivans-carpool-1.png" alt="The ultimate practical guide to multilevel multinomial conjoint analysis with R" title="The ultimate practical guide to multilevel multinomial conjoint analysis with R">
+        </div>
+    </div>
+    <div class="blog-entry" data-index="2" data-categories="r,tidyverse,ggplot,gis,maps" data-listing-date-sort="1690491600000" data-listing-file-modified-sort="1694979080127" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="16">
+        <div class="metadata">          
+            <p class="date listing-date">July 28, 2023</p>
+        </div>
+        <div class="body">
+            <p class="title listing-title"><a href="../blog/2023/07/28/gradient-map-fills-r-sf/index.html">How to fill maps with density gradients with R, {ggplot2}, and {sf}</a></p>
+            <div class="post-categories listing-categories">
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('r'); return false;">
+                    r
+                </div>
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('tidyverse'); return false;">
+                    tidyverse
+                </div>
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('ggplot'); return false;">
+                    ggplot
+                </div>
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('gis'); return false;">
+                    gis
+                </div>
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('maps'); return false;">
+                    maps
+                </div>
+            </div>
+            <p class="description listing-description">Fix overplotted points on maps by creating bins or filled desntiy gradients using R, {ggplot2}, and {sf}</p>
+            <p class="post-doi"><img src="../files/doi.svg" class="doi-icon img-fluid" alt="DOI"> <a href="https://doi.org/10.59350/bsctw-0a955" target="_blank" rel="noopener noreferrer">10.59350/bsctw-0a955</a></p>
+        </div>
+        <div class="thumbnail">
+            <img src="../blog/2023/07/28/gradient-map-fills-r-sf/index_files/figure-html/plot-all-1.png" alt="How to fill maps with density gradients with R, {ggplot2}, and {sf}" title="How to fill maps with density gradients with R, {ggplot2}, and {sf}">
+        </div>
+    </div>
+    <div class="blog-entry" data-index="3" data-categories="r,tidyverse,ggplot,statistics,brms,stan" data-listing-date-sort="1690232400000" data-listing-file-modified-sort="1694979079945" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="111">
+        <div class="metadata">          
+            <p class="date listing-date">July 25, 2023</p>
+        </div>
+        <div class="body">
+            <p class="title listing-title"><a href="../blog/2023/07/25/conjoint-bayesian-frequentist-guide/index.html">The ultimate practical guide to conjoint analysis with R</a></p>
+            <div class="post-categories listing-categories">
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('r'); return false;">
+                    r
+                </div>
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('tidyverse'); return false;">
+                    tidyverse
+                </div>
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('ggplot'); return false;">
+                    ggplot
+                </div>
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('statistics'); return false;">
+                    statistics
+                </div>
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('brms'); return false;">
+                    brms
+                </div>
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('stan'); return false;">
+                    stan
+                </div>
+            </div>
+            <p class="description listing-description">Learn how to use R, {brms}, and {marginaleffects} to analyze conjoint data and find causal and descriptive quantities of interest, both frequentistly and Bayesianly</p>
+            <p class="post-doi"><img src="../files/doi.svg" class="doi-icon img-fluid" alt="DOI"> <a href="https://doi.org/10.59350/xgwjy-dyj66" target="_blank" rel="noopener noreferrer">10.59350/xgwjy-dyj66</a></p>
+        </div>
+        <div class="thumbnail">
+            <img src="../blog/2023/07/25/conjoint-bayesian-frequentist-guide/index_files/figure-html/amce-mfx-bayes-plot-excerpt-1.png" alt="The ultimate practical guide to conjoint analysis with R" title="The ultimate practical guide to conjoint analysis with R">
+        </div>
+    </div>
+    <div class="blog-entry" data-index="4" data-categories="r,tidyverse,ggplot,gis,maps" data-listing-date-sort="1688331600000" data-listing-file-modified-sort="1694979079912" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="58">
+        <div class="metadata">          
+            <p class="date listing-date">July 3, 2023</p>
+        </div>
+        <div class="body">
+            <p class="title listing-title"><a href="../blog/2023/07/03/using-google-location-history-with-r-roadtrip/index.html">Road trip analysis! How to use and play with Google Location History in R</a></p>
+            <div class="post-categories listing-categories">
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('r'); return false;">
+                    r
+                </div>
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('tidyverse'); return false;">
+                    tidyverse
+                </div>
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('ggplot'); return false;">
+                    ggplot
+                </div>
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('gis'); return false;">
+                    gis
+                </div>
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('maps'); return false;">
+                    maps
+                </div>
+            </div>
+            <p class="description listing-description">Learn how to use R to load and clean and play with all the location history data Google keeps about you and look at some neat plots and tables about our 5,000-mile summer road trip along the way</p>
+            <p class="post-doi"><img src="../files/doi.svg" class="doi-icon img-fluid" alt="DOI"> <a href="https://doi.org/10.59350/24rwv-k9n62" target="_blank" rel="noopener noreferrer">10.59350/24rwv-k9n62</a></p>
+        </div>
+        <div class="thumbnail">
+            <img src="../blog/2023/07/03/using-google-location-history-with-r-roadtrip/index_files/figure-html/fig-map-with-dates-1.png" alt="Road trip analysis! How to use and play with Google Location History in R" title="Road trip analysis! How to use and play with Google Location History in R">
+        </div>
+    </div>
+    <div class="blog-entry" data-index="5" data-categories="r,tidyverse,ggplot,gis,maps" data-listing-date-sort="1685566800000" data-listing-file-modified-sort="1694979079870" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="35">
+        <div class="metadata">          
+            <p class="date listing-date">June 1, 2023</p>
+        </div>
+        <div class="body">
+            <p class="title listing-title"><a href="../blog/2023/06/01/geocoding-routing-openstreetmap-r/index.html">How to make fancy road trip maps with R and OpenStreetMap</a></p>
+            <div class="post-categories listing-categories">
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('r'); return false;">
+                    r
+                </div>
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('tidyverse'); return false;">
+                    tidyverse
+                </div>
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('ggplot'); return false;">
+                    ggplot
+                </div>
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('gis'); return false;">
+                    gis
+                </div>
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('maps'); return false;">
+                    maps
+                </div>
+            </div>
+            <p class="description listing-description">Use R to get geocoded location and routing data from OpenStreetMap and explore our family's impending 5,000 mile road trip around the USA</p>
+            <p class="post-doi"><img src="../files/doi.svg" class="doi-icon img-fluid" alt="DOI"> <a href="https://doi.org/10.59350/rgwda-0tv16" target="_blank" rel="noopener noreferrer">10.59350/rgwda-0tv16</a></p>
+        </div>
+        <div class="thumbnail">
+            <img src="../blog/2023/06/01/geocoding-routing-openstreetmap-r/index_files/figure-html/plot-routes-stops-distances-1.png" alt="How to make fancy road trip maps with R and OpenStreetMap" title="How to make fancy road trip maps with R and OpenStreetMap">
+        </div>
+    </div>
+    <div class="blog-entry" data-index="6" data-categories="r,tidyverse,ggplot,bayes,brms,stan,surveys,categorical data" data-listing-date-sort="1684098000000" data-listing-file-modified-sort="1694979079844" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="64">
+        <div class="metadata">          
+            <p class="date listing-date">May 15, 2023</p>
+        </div>
+        <div class="body">
+            <p class="title listing-title"><a href="../blog/2023/05/15/fancy-bayes-diffs-props/index.html">A guide to Bayesian proportion tests with R and {brms}</a></p>
+            <div class="post-categories listing-categories">
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('r'); return false;">
+                    r
+                </div>
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('tidyverse'); return false;">
+                    tidyverse
+                </div>
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('ggplot'); return false;">
+                    ggplot
+                </div>
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('bayes'); return false;">
+                    bayes
+                </div>
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('brms'); return false;">
+                    brms
+                </div>
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('stan'); return false;">
+                    stan
+                </div>
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('surveys'); return false;">
+                    surveys
+                </div>
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('categorical data'); return false;">
+                    categorical data
+                </div>
+            </div>
+            <p class="description listing-description">Use R, Stan, and {brms} to calculate differences between categorical proportions in a principled Bayesian way</p>
+            <p class="post-doi"><img src="../files/doi.svg" class="doi-icon img-fluid" alt="DOI"> <a href="https://doi.org/10.59350/kw2gj-kw740" target="_blank" rel="noopener noreferrer">10.59350/kw2gj-kw740</a></p>
+        </div>
+        <div class="thumbnail">
+            <img src="../blog/2023/05/15/fancy-bayes-diffs-props/index_files/figure-html/q2-plot-final-1.png" alt="A guide to Bayesian proportion tests with R and {brms}" title="A guide to Bayesian proportion tests with R and {brms}">
+        </div>
+    </div>
+    <div class="blog-entry" data-index="7" data-categories="r,tidyverse,ggplot,gis,maps,nerdery" data-listing-date-sort="1682456400000" data-listing-file-modified-sort="1694979079808" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="45">
+        <div class="metadata">          
+            <p class="date listing-date">April 26, 2023</p>
+        </div>
+        <div class="body">
+            <p class="title listing-title"><a href="../blog/2023/04/26/middle-earth-mapping-sf-r-gis/index.html">Making Middle Earth maps with R</a></p>
+            <div class="post-categories listing-categories">
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('r'); return false;">
+                    r
+                </div>
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('tidyverse'); return false;">
+                    tidyverse
+                </div>
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('ggplot'); return false;">
+                    ggplot
+                </div>
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('gis'); return false;">
+                    gis
+                </div>
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('maps'); return false;">
+                    maps
+                </div>
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('nerdery'); return false;">
+                    nerdery
+                </div>
+            </div>
+            <p class="description listing-description">Explore Tolkien's Middle Earth with R-based GIS tools, including {ggplot2} and {sf}</p>
+            <p class="post-doi"><img src="../files/doi.svg" class="doi-icon img-fluid" alt="DOI"> <a href="https://doi.org/10.59350/ccrtd-z3s22" target="_blank" rel="noopener noreferrer">10.59350/ccrtd-z3s22</a></p>
+        </div>
+        <div class="thumbnail">
+            <img src="../blog/2023/04/26/middle-earth-mapping-sf-r-gis/index_files/figure-html/shire-zoomed-in-fancy-1.png" alt="Making Middle Earth maps with R" title="Making Middle Earth maps with R">
+        </div>
+    </div>
+    <div class="blog-entry" data-index="8" data-categories="r,tidyverse,ggplot,simulations,brms,nerdery" data-listing-date-sort="1679349600000" data-listing-file-modified-sort="1694979079734" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="22">
+        <div class="metadata">          
+            <p class="date listing-date">March 21, 2023</p>
+        </div>
+        <div class="body">
+            <p class="title listing-title"><a href="../blog/2023/03/21/aragorn-dunedan-numenorean-simulation/index.html">How old was Aragorn in regular human years?</a></p>
+            <div class="post-categories listing-categories">
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('r'); return false;">
+                    r
+                </div>
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('tidyverse'); return false;">
+                    tidyverse
+                </div>
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('ggplot'); return false;">
+                    ggplot
+                </div>
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('simulations'); return false;">
+                    simulations
+                </div>
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('brms'); return false;">
+                    brms
+                </div>
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('nerdery'); return false;">
+                    nerdery
+                </div>
+            </div>
+            <p class="description listing-description">Use statistical simulation and a hidden table of Númenórean ages from Tolkien's unpublished works to convert Aragorn's Dúnedan years to actual human years</p>
+            <p class="post-doi"><img src="../files/doi.svg" class="doi-icon img-fluid" alt="DOI"> <a href="https://doi.org/10.59350/e0855-b1171" target="_blank" rel="noopener noreferrer">10.59350/e0855-b1171</a></p>
+        </div>
+        <div class="thumbnail">
+            <img src="../blog/2023/03/21/aragorn-dunedan-numenorean-simulation/img/aragorn-final-50.jpg" alt="How old was Aragorn in regular human years?" title="How old was Aragorn in regular human years?">
+        </div>
+    </div>
+    <div class="blog-entry" data-index="9" data-categories="writing,markdown,citations,pandoc,zotero" data-listing-date-sort="1673215200000" data-listing-file-modified-sort="1694979079728" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8">
+        <div class="metadata">          
+            <p class="date listing-date">January 9, 2023</p>
+        </div>
+        <div class="body">
+            <p class="title listing-title"><a href="../blog/2023/01/09/syllabus-csl-pandoc/index.html">One Simple Trick™ to create inline bibliography entries with Markdown and pandoc</a></p>
+            <div class="post-categories listing-categories">
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('writing'); return false;">
+                    writing
+                </div>
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('markdown'); return false;">
+                    markdown
+                </div>
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('citations'); return false;">
+                    citations
+                </div>
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('pandoc'); return false;">
+                    pandoc
+                </div>
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('zotero'); return false;">
+                    zotero
+                </div>
+            </div>
+            <p class="description listing-description">By default, pandoc doesn't include full bibliographic references inline in documents, but with one tweak to a CSL file, you can create syllabus-like lists of citations with full references</p>
+            <p class="post-doi"><img src="../files/doi.svg" class="doi-icon img-fluid" alt="DOI"> <a href="https://doi.org/10.59350/hwwgk-v9636" target="_blank" rel="noopener noreferrer">10.59350/hwwgk-v9636</a></p>
+        </div>
+    </div>
+    <div class="blog-entry" data-index="10" data-categories="writing,markdown,citations,pandoc,zotero" data-listing-date-sort="1673128800000" data-listing-file-modified-sort="1694979079727" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="18">
+        <div class="metadata">          
+            <p class="date listing-date">January 8, 2023</p>
+        </div>
+        <div class="body">
+            <p class="title listing-title"><a href="../blog/2023/01/08/bibdesk-to-zotero-pandoc/index.html">How to migrate from BibDesk to Zotero for pandoc-based writing</a></p>
+            <div class="post-categories listing-categories">
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('writing'); return false;">
+                    writing
+                </div>
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('markdown'); return false;">
+                    markdown
+                </div>
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('citations'); return false;">
+                    citations
+                </div>
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('pandoc'); return false;">
+                    pandoc
+                </div>
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('zotero'); return false;">
+                    zotero
+                </div>
+            </div>
+            <p class="description listing-description">Tips, tricks, and rationale for converting from a single big BibTeX file to a Zotero database</p>
+            <p class="post-doi"><img src="../files/doi.svg" class="doi-icon img-fluid" alt="DOI"> <a href="https://doi.org/10.59350/cwrq4-m7h10" target="_blank" rel="noopener noreferrer">10.59350/cwrq4-m7h10</a></p>
+        </div>
+        <div class="thumbnail">
+            <img src="../blog/2023/01/08/bibdesk-to-zotero-pandoc/img/zotero-final.png" alt="How to migrate from BibDesk to Zotero for pandoc-based writing" title="How to migrate from BibDesk to Zotero for pandoc-based writing">
+        </div>
+    </div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="section-1" class="level2">
+<h2 class="anchored" data-anchor-id="section-1">2022</h2>
+<div id="listing-posts_2022" class="quarto-listing quarto-listing-container-custom">
+<div class="list blog">
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="section-2" class="level2">
+<h2 class="anchored" data-anchor-id="section-2">2021</h2>
+<div id="listing-posts_2021" class="quarto-listing quarto-listing-container-custom">
+<div class="list blog">
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="section-3" class="level2">
+<h2 class="anchored" data-anchor-id="section-3">2020</h2>
+<div id="listing-posts_2020" class="quarto-listing quarto-listing-container-custom">
+<div class="list blog">
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="section-4" class="level2">
+<h2 class="anchored" data-anchor-id="section-4">2019</h2>
+<div id="listing-posts_2019" class="quarto-listing quarto-listing-container-custom">
+<div class="list blog">
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="section-5" class="level2">
+<h2 class="anchored" data-anchor-id="section-5">2018</h2>
+<div id="listing-posts_2018" class="quarto-listing quarto-listing-container-custom">
+<div class="list blog">
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="section-6" class="level2">
+<h2 class="anchored" data-anchor-id="section-6">2017</h2>
+<div id="listing-posts_2017" class="quarto-listing quarto-listing-container-custom">
+<div class="list blog">
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="section-7" class="level2">
+<h2 class="anchored" data-anchor-id="section-7">2016</h2>
+<div id="listing-posts_2016" class="quarto-listing quarto-listing-container-custom">
+<div class="list blog">
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="section-8" class="level2">
+<h2 class="anchored" data-anchor-id="section-8">2013</h2>
+<div id="listing-posts_2013" class="quarto-listing quarto-listing-container-custom">
+<div class="list blog">
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="section-9" class="level2">
+<h2 class="anchored" data-anchor-id="section-9">2012</h2>
+<div id="listing-posts_2012" class="quarto-listing quarto-listing-container-custom">
+<div class="list blog">
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="section-10" class="level2">
+<h2 class="anchored" data-anchor-id="section-10">2011</h2>
+<div id="listing-posts_2011" class="quarto-listing quarto-listing-container-custom">
+<div class="list blog">
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="section-11" class="level2">
+<h2 class="anchored" data-anchor-id="section-11">2010</h2>
+<div id="listing-posts_2010" class="quarto-listing quarto-listing-container-custom">
+<div class="list blog">
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="section-12" class="level2">
+<h2 class="anchored" data-anchor-id="section-12">2009</h2>
+<div id="listing-posts_2009" class="quarto-listing quarto-listing-container-custom">
+<div class="list blog">
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="section-13" class="level2">
+<h2 class="anchored" data-anchor-id="section-13">2007</h2>
+<div id="listing-posts_2007" class="quarto-listing quarto-listing-container-custom">
+<div class="list blog">
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left"><span class="faux-block"><i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i> 2007–2022 Aleksi Knuutila</span> <span class="faux-block">All content licensed under<br><a href="https://creativecommons.org/licenses/by/4.0/"><i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i> <i class="fa-brands fa-creative-commons-by" aria-label="creative-commons-by"></i> Creative Commons CC BY 4.0</a></span><br>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right"><span class="faux-block">Made with <a href="https://quarto.org/">Quarto</a></span> <span class="faux-block"><a href="https://github.com/andrewheiss/ath-quarto">View the source at <i class="fa-brands fa-github" aria-label="github"></i> GitHub</a></span></div>
+  </div>
+</footer>
+
+
+
+</body></html>

@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Aleksi Knuutila">
+<meta name="description" content="Aleksi Knuutila is a Senior Researcher in Sociology at the University of Helsinki">
+
+<title>Andrew Heiss’s blog | Aleksi Knuutila</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href=".//files/favicon-512.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<link rel="alternate" type="application/rss+xml" title="Andrew Heiss's blog" href="atom.xml"><meta property="og:title" content="Andrew Heiss’s blog | Aleksi Knuutila">
+<meta property="og:description" content="Aleksi Knuutila is a Senior Researcher in Sociology at the University of Helsinki">
+<meta property="og:image" content="https://knuutila.net/files/profiles/twitter-card-large.png">
+<meta property="og:site-name" content="Aleksi Knuutila">
+<meta property="og:locale" content="en_US">
+<meta property="og:image:height" content="1257">
+<meta property="og:image:width" content="2401">
+<meta name="twitter:title" content="Andrew Heiss’s blog | Aleksi Knuutila">
+<meta name="twitter:description" content="Aleksi Knuutila is a Senior Researcher in Sociology at the University of Helsinki">
+<meta name="twitter:image" content="https://knuutila.net/files/profiles/twitter-card-large.png">
+<meta name="twitter:creator" content="@knuutila">
+<meta name="twitter:site" content="@knuutila">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image-height" content="1257">
+<meta name="twitter:image-width" content="2401">
+</head>
+
+<body class="nav-fixed fullcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Aleksi Knuutila</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html" rel="" target="">
+ <span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./blog/index.html" rel="" target="">
+ <span class="menu-text">Blog</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./research/index.html" rel="" target="">
+ <span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./talks/index.html" rel="" target="">
+ <span class="menu-text">Talks</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="./atom.xml" rel="" target=""><i class="bi bi-rss" role="img" aria-label="rss">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="mailto:aleksi.knuutila@helsinki.fi" rel="" target=""><i class="bi bi-envelope" role="img" aria-label="email">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/knuutila" rel="me" target=""><i class="bi bi-twitter" role="img" aria-label="twitter">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/AleksiKnuutila" rel="me" target=""><i class="bi bi-github" role="img" aria-label="github">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Andrew Heiss’s blog</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+
+
+
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="r,statistics,regression" data-listing-date-sort="1692046800000" data-listing-file-modified-sort="1694806240915" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
+<div class="thumbnail">
+<p><a href="./blog/2023/08/15/matrix-multiply-logit-predict/index.html"> <img src="./blog/2023/08/15/matrix-multiply-logit-predict/social-image.png" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./blog/2023/08/15/matrix-multiply-logit-predict/index.html">
+<h3 class="no-anchor listing-title">
+Manually generate predicted values for logistic regression with matrix multiplication in R
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>This is like basic stats stuff, but I can never remember how to do it—here’s how to use matrix multiplication to replicate the results of <code>predict()</code></p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./blog/2023/08/15/matrix-multiply-logit-predict/index.html">
+<div class="listing-date">
+Aug 15, 2023
+</div>
+<div class="listing-author">
+Andrew Heiss
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="r,tidyverse,ggplot,statistics,brms,stan" data-listing-date-sort="1691787600000" data-listing-file-modified-sort="1694806240905" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="420">
+<div class="thumbnail">
+<p><a href="./blog/2023/08/12/conjoint-multilevel-multinomial-guide/index.html"> <img src="./blog/2023/08/12/conjoint-multilevel-multinomial-guide/index_files/figure-html/plot-amces-minivans-carpool-1.png" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./blog/2023/08/12/conjoint-multilevel-multinomial-guide/index.html">
+<h3 class="no-anchor listing-title">
+The ultimate practical guide to multilevel multinomial conjoint analysis with R
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>Learn how to use R, {brms}, {marginaleffects}, and {tidybayes} to analyze discrete choice conjoint data with fully specified hierarchical multilevel multinomial models</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./blog/2023/08/12/conjoint-multilevel-multinomial-guide/index.html">
+<div class="listing-date">
+Aug 12, 2023
+</div>
+<div class="listing-author">
+Andrew Heiss
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-categories="r,tidyverse,ggplot,gis,maps" data-listing-date-sort="1690491600000" data-listing-file-modified-sort="1694979080127" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="16">
+<div class="thumbnail">
+<p><a href="./blog/2023/07/28/gradient-map-fills-r-sf/index.html"> <img src="./blog/2023/07/28/gradient-map-fills-r-sf/index_files/figure-html/plot-all-1.png" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./blog/2023/07/28/gradient-map-fills-r-sf/index.html">
+<h3 class="no-anchor listing-title">
+How to fill maps with density gradients with R, {ggplot2}, and {sf}
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>Fix overplotted points on maps by creating bins or filled desntiy gradients using R, {ggplot2}, and {sf}</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./blog/2023/07/28/gradient-map-fills-r-sf/index.html">
+<div class="listing-date">
+Jul 28, 2023
+</div>
+<div class="listing-author">
+Andrew Heiss
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-categories="r,tidyverse,ggplot,statistics,brms,stan" data-listing-date-sort="1690232400000" data-listing-file-modified-sort="1694979079945" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="111">
+<div class="thumbnail">
+<p><a href="./blog/2023/07/25/conjoint-bayesian-frequentist-guide/index.html"> <img src="./blog/2023/07/25/conjoint-bayesian-frequentist-guide/index_files/figure-html/amce-mfx-bayes-plot-excerpt-1.png" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./blog/2023/07/25/conjoint-bayesian-frequentist-guide/index.html">
+<h3 class="no-anchor listing-title">
+The ultimate practical guide to conjoint analysis with R
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>Learn how to use R, {brms}, and {marginaleffects} to analyze conjoint data and find causal and descriptive quantities of interest, both frequentistly and Bayesianly</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./blog/2023/07/25/conjoint-bayesian-frequentist-guide/index.html">
+<div class="listing-date">
+Jul 25, 2023
+</div>
+<div class="listing-author">
+Andrew Heiss
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="4" data-categories="r,tidyverse,ggplot,gis,maps" data-listing-date-sort="1688331600000" data-listing-file-modified-sort="1694979079912" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="58">
+<div class="thumbnail">
+<p><a href="./blog/2023/07/03/using-google-location-history-with-r-roadtrip/index.html"> <img src="./blog/2023/07/03/using-google-location-history-with-r-roadtrip/index_files/figure-html/fig-map-with-dates-1.png" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./blog/2023/07/03/using-google-location-history-with-r-roadtrip/index.html">
+<h3 class="no-anchor listing-title">
+Road trip analysis! How to use and play with Google Location History in R
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>Learn how to use R to load and clean and play with all the location history data Google keeps about you and look at some neat plots and tables about our 5,000-mile summer road trip along the way</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./blog/2023/07/03/using-google-location-history-with-r-roadtrip/index.html">
+<div class="listing-date">
+Jul 3, 2023
+</div>
+<div class="listing-author">
+Andrew Heiss
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="5" data-categories="r,tidyverse,ggplot,gis,maps" data-listing-date-sort="1685566800000" data-listing-file-modified-sort="1694979079870" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="35">
+<div class="thumbnail">
+<p><a href="./blog/2023/06/01/geocoding-routing-openstreetmap-r/index.html"> <img src="./blog/2023/06/01/geocoding-routing-openstreetmap-r/index_files/figure-html/plot-routes-stops-distances-1.png" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./blog/2023/06/01/geocoding-routing-openstreetmap-r/index.html">
+<h3 class="no-anchor listing-title">
+How to make fancy road trip maps with R and OpenStreetMap
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>Use R to get geocoded location and routing data from OpenStreetMap and explore our family’s impending 5,000 mile road trip around the USA</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./blog/2023/06/01/geocoding-routing-openstreetmap-r/index.html">
+<div class="listing-date">
+Jun 1, 2023
+</div>
+<div class="listing-author">
+Andrew Heiss
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="6" data-categories="r,tidyverse,ggplot,bayes,brms,stan,surveys,categorical data" data-listing-date-sort="1684098000000" data-listing-file-modified-sort="1694979079844" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="64">
+<div class="thumbnail">
+<p><a href="./blog/2023/05/15/fancy-bayes-diffs-props/index.html"> <img src="./blog/2023/05/15/fancy-bayes-diffs-props/index_files/figure-html/q2-plot-final-1.png" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./blog/2023/05/15/fancy-bayes-diffs-props/index.html">
+<h3 class="no-anchor listing-title">
+A guide to Bayesian proportion tests with R and {brms}
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>Use R, Stan, and {brms} to calculate differences between categorical proportions in a principled Bayesian way</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./blog/2023/05/15/fancy-bayes-diffs-props/index.html">
+<div class="listing-date">
+May 15, 2023
+</div>
+<div class="listing-author">
+Andrew Heiss
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="7" data-categories="r,tidyverse,ggplot,gis,maps,nerdery" data-listing-date-sort="1682456400000" data-listing-file-modified-sort="1694979079808" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="45">
+<div class="thumbnail">
+<p><a href="./blog/2023/04/26/middle-earth-mapping-sf-r-gis/index.html"> <img src="./blog/2023/04/26/middle-earth-mapping-sf-r-gis/index_files/figure-html/shire-zoomed-in-fancy-1.png" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./blog/2023/04/26/middle-earth-mapping-sf-r-gis/index.html">
+<h3 class="no-anchor listing-title">
+Making Middle Earth maps with R
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>Explore Tolkien’s Middle Earth with R-based GIS tools, including {ggplot2} and {sf}</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./blog/2023/04/26/middle-earth-mapping-sf-r-gis/index.html">
+<div class="listing-date">
+Apr 26, 2023
+</div>
+<div class="listing-author">
+Andrew Heiss
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="8" data-categories="r,tidyverse,ggplot,simulations,brms,nerdery" data-listing-date-sort="1679349600000" data-listing-file-modified-sort="1694979079734" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="22">
+<div class="thumbnail">
+<p><a href="./blog/2023/03/21/aragorn-dunedan-numenorean-simulation/index.html"> <img src="./blog/2023/03/21/aragorn-dunedan-numenorean-simulation/img/aragorn-final-50.jpg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./blog/2023/03/21/aragorn-dunedan-numenorean-simulation/index.html">
+<h3 class="no-anchor listing-title">
+How old was Aragorn in regular human years?
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>Use statistical simulation and a hidden table of Númenórean ages from Tolkien’s unpublished works to convert Aragorn’s Dúnedan years to actual human years</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./blog/2023/03/21/aragorn-dunedan-numenorean-simulation/index.html">
+<div class="listing-date">
+Mar 21, 2023
+</div>
+<div class="listing-author">
+Andrew Heiss
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="9" data-categories="writing,markdown,citations,pandoc,zotero" data-listing-date-sort="1673215200000" data-listing-file-modified-sort="1694979079728" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8">
+<div class="thumbnail">
+<p><a href="./blog/2023/01/09/syllabus-csl-pandoc/index.html"> <p class="card-img-top"><img src="blog/2023/01/09/syllabus-csl-pandoc/citation-hover.png" alt="Citation reference hovering popup"  class="thumbnail-image card-img"/></p> </a></p>
+</div>
+<div class="body">
+<a href="./blog/2023/01/09/syllabus-csl-pandoc/index.html">
+<h3 class="no-anchor listing-title">
+One Simple Trick™ to create inline bibliography entries with Markdown and pandoc
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>By default, pandoc doesn’t include full bibliographic references inline in documents, but with one tweak to a CSL file, you can create syllabus-like lists of citations with full references</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./blog/2023/01/09/syllabus-csl-pandoc/index.html">
+<div class="listing-date">
+Jan 9, 2023
+</div>
+<div class="listing-author">
+Andrew Heiss
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="10" data-categories="writing,markdown,citations,pandoc,zotero" data-listing-date-sort="1673128800000" data-listing-file-modified-sort="1694979079727" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="18">
+<div class="thumbnail">
+<p><a href="./blog/2023/01/08/bibdesk-to-zotero-pandoc/index.html"> <img src="./blog/2023/01/08/bibdesk-to-zotero-pandoc/img/zotero-final.png" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./blog/2023/01/08/bibdesk-to-zotero-pandoc/index.html">
+<h3 class="no-anchor listing-title">
+How to migrate from BibDesk to Zotero for pandoc-based writing
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>Tips, tricks, and rationale for converting from a single big BibTeX file to a Zotero database</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./blog/2023/01/08/bibdesk-to-zotero-pandoc/index.html">
+<div class="listing-date">
+Jan 8, 2023
+</div>
+<div class="listing-author">
+Andrew Heiss
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left"><span class="faux-block"><i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i> 2007–2022 Aleksi Knuutila</span> <span class="faux-block">All content licensed under<br><a href="https://creativecommons.org/licenses/by/4.0/"><i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i> <i class="fa-brands fa-creative-commons-by" aria-label="creative-commons-by"></i> Creative Commons CC BY 4.0</a></span><br>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right"><span class="faux-block">Made with <a href="https://quarto.org/">Quarto</a></span> <span class="faux-block"><a href="https://github.com/andrewheiss/ath-quarto">View the source at <i class="fa-brands fa-github" aria-label="github"></i> GitHub</a></span></div>
+  </div>
+</footer>
+
+
+
+</body></html>
