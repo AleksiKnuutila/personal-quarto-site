@@ -1,11 +1,11 @@
 ---
-title: "Andrew Heiss's blog"
+title: "Aleksi Knuutila's blog"
 search: false
 listing:
   sort: "date desc"
   feed: 
-    title: "Andrew Heiss's blog"
-    description: "Andrew Heiss's blog"
+    title: "Aleksi Knuutila's blog"
+    description: "Aleksi Knuutila's blog"
     items: 40
     type: full
     language: en
