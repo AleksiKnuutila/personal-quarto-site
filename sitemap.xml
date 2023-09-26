@@ -2,158 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://knuutila.net/teaching/index.html</loc>
-    <lastmod>2023-09-17T20:09:40.891Z</lastmod>
-  </url>
-  <url>
-    <loc>https://knuutila.net/research/working-papers/heiss-ye-np-causal-inference/index.html</loc>
-    <lastmod>2023-09-17T20:09:40.147Z</lastmod>
-  </url>
-  <url>
-    <loc>https://knuutila.net/research/working-papers/heiss-program-capture-ingos/index.html</loc>
-    <lastmod>2023-09-17T20:09:39.420Z</lastmod>
-  </url>
-  <url>
-    <loc>https://knuutila.net/research/working-papers/heiss-mission-money-environment/index.html</loc>
-    <lastmod>2023-09-17T20:09:38.718Z</lastmod>
-  </url>
-  <url>
-    <loc>https://knuutila.net/research/working-papers/chaudhry-heiss-ngos-aid/index.html</loc>
-    <lastmod>2023-09-17T20:09:38.020Z</lastmod>
-  </url>
-  <url>
-    <loc>https://knuutila.net/research/working-papers/chaudhry-dotson-heiss-why-donors-donate/index.html</loc>
-    <lastmod>2023-09-17T20:09:37.252Z</lastmod>
-  </url>
-  <url>
-    <loc>https://knuutila.net/research/working-papers/arel-bundock-greifer-heiss-mfxplainer/index.html</loc>
-    <lastmod>2023-09-17T20:09:36.551Z</lastmod>
-  </url>
-  <url>
-    <loc>https://knuutila.net/research/articles/witesman-heiss-2016/index.html</loc>
-    <lastmod>2023-09-17T20:09:35.727Z</lastmod>
-  </url>
-  <url>
-    <loc>https://knuutila.net/research/articles/peck-heiss-2021/index.html</loc>
-    <lastmod>2023-09-17T20:09:34.979Z</lastmod>
-  </url>
-  <url>
-    <loc>https://knuutila.net/research/articles/heiss-kelley-2017/index.html</loc>
-    <lastmod>2023-09-17T20:09:34.155Z</lastmod>
-  </url>
-  <url>
-    <loc>https://knuutila.net/research/articles/heiss-2019-taking-control/index.html</loc>
-    <lastmod>2023-09-17T20:09:33.370Z</lastmod>
-  </url>
-  <url>
-    <loc>https://knuutila.net/research/articles/chaudhry-heiss-ngos-repression/index.html</loc>
-    <lastmod>2023-09-17T20:09:32.624Z</lastmod>
-  </url>
-  <url>
-    <loc>https://knuutila.net/research/articles/chaudhry-dotson-heiss-2021/index.html</loc>
-    <lastmod>2023-09-17T20:09:31.776Z</lastmod>
-  </url>
-  <url>
-    <loc>https://knuutila.net/blog/index.html</loc>
-    <lastmod>2023-09-17T20:09:31.005Z</lastmod>
-  </url>
-  <url>
-    <loc>https://knuutila.net/blog/2023/08/12/conjoint-multilevel-multinomial-guide/index.html</loc>
-    <lastmod>2023-09-17T20:09:29.472Z</lastmod>
-  </url>
-  <url>
-    <loc>https://knuutila.net/blog/2023/07/25/conjoint-bayesian-frequentist-guide/index.html</loc>
-    <lastmod>2023-09-17T20:09:18.771Z</lastmod>
-  </url>
-  <url>
-    <loc>https://knuutila.net/blog/2023/06/01/geocoding-routing-openstreetmap-r/index.html</loc>
-    <lastmod>2023-09-17T20:09:08.635Z</lastmod>
-  </url>
-  <url>
-    <loc>https://knuutila.net/blog/2023/04/26/middle-earth-mapping-sf-r-gis/index.html</loc>
-    <lastmod>2023-09-17T20:09:00.390Z</lastmod>
-  </url>
-  <url>
-    <loc>https://knuutila.net/blog/2023/01/09/syllabus-csl-pandoc/index.html</loc>
-    <lastmod>2023-09-17T20:08:55.128Z</lastmod>
-  </url>
-  <url>
-    <loc>https://knuutila.net/atom.html</loc>
-    <lastmod>2023-09-17T20:08:52.027Z</lastmod>
-  </url>
-  <url>
-    <loc>https://knuutila.net/blog/2023/01/08/bibdesk-to-zotero-pandoc/index.html</loc>
-    <lastmod>2023-09-17T20:08:53.897Z</lastmod>
-  </url>
-  <url>
-    <loc>https://knuutila.net/blog/2023/03/21/aragorn-dunedan-numenorean-simulation/index.html</loc>
-    <lastmod>2023-09-17T20:08:57.199Z</lastmod>
-  </url>
-  <url>
-    <loc>https://knuutila.net/blog/2023/05/15/fancy-bayes-diffs-props/index.html</loc>
-    <lastmod>2023-09-17T20:09:05.932Z</lastmod>
-  </url>
-  <url>
-    <loc>https://knuutila.net/blog/2023/07/03/using-google-location-history-with-r-roadtrip/index.html</loc>
-    <lastmod>2023-09-17T20:09:12.482Z</lastmod>
-  </url>
-  <url>
-    <loc>https://knuutila.net/blog/2023/07/28/gradient-map-fills-r-sf/index.html</loc>
-    <lastmod>2023-09-17T20:09:20.566Z</lastmod>
-  </url>
-  <url>
-    <loc>https://knuutila.net/blog/2023/08/15/matrix-multiply-logit-predict/index.html</loc>
-    <lastmod>2023-09-17T20:09:30.446Z</lastmod>
-  </url>
-  <url>
-    <loc>https://knuutila.net/index.html</loc>
-    <lastmod>2023-09-17T20:09:31.318Z</lastmod>
-  </url>
-  <url>
-    <loc>https://knuutila.net/research/articles/chaudhry-heiss-ngos-philanthropy/index.html</loc>
-    <lastmod>2023-09-17T20:09:32.220Z</lastmod>
-  </url>
-  <url>
-    <loc>https://knuutila.net/research/articles/heiss-2012/index.html</loc>
-    <lastmod>2023-09-17T20:09:32.977Z</lastmod>
-  </url>
-  <url>
-    <loc>https://knuutila.net/research/articles/heiss-johnson-2016/index.html</loc>
-    <lastmod>2023-09-17T20:09:33.763Z</lastmod>
-  </url>
-  <url>
-    <loc>https://knuutila.net/research/articles/heiss-kelley-2017a/index.html</loc>
-    <lastmod>2023-09-17T20:09:34.548Z</lastmod>
-  </url>
-  <url>
-    <loc>https://knuutila.net/research/articles/seta-2023/index.html</loc>
-    <lastmod>2023-09-17T20:09:35.345Z</lastmod>
+    <lastmod>2023-09-26T19:25:56.929Z</lastmod>
   </url>
   <url>
     <loc>https://knuutila.net/research/index.html</loc>
-    <lastmod>2023-09-17T20:09:36.190Z</lastmod>
+    <lastmod>2023-09-26T19:25:56.185Z</lastmod>
   </url>
   <url>
-    <loc>https://knuutila.net/research/working-papers/chaudhry-comstock-heiss-pandemic-pass/index.html</loc>
-    <lastmod>2023-09-17T20:09:36.901Z</lastmod>
+    <loc>https://knuutila.net/index.html</loc>
+    <lastmod>2023-09-26T19:25:55.541Z</lastmod>
   </url>
   <url>
-    <loc>https://knuutila.net/research/working-papers/chaudhry-heiss-derogations/index.html</loc>
-    <lastmod>2023-09-17T20:09:37.628Z</lastmod>
+    <loc>https://knuutila.net/blog/2023/08/15/matrix-multiply-logit-predict/index.html</loc>
+    <lastmod>2023-09-26T19:25:54.813Z</lastmod>
   </url>
   <url>
-    <loc>https://knuutila.net/research/working-papers/heiss-amicable-contempt/index.html</loc>
-    <lastmod>2023-09-17T20:09:38.383Z</lastmod>
+    <loc>https://knuutila.net/atom.html</loc>
+    <lastmod>2023-09-26T19:25:45.137Z</lastmod>
   </url>
   <url>
-    <loc>https://knuutila.net/research/working-papers/heiss-nafa-bayes-ipw/index.html</loc>
-    <lastmod>2023-09-17T20:09:39.093Z</lastmod>
+    <loc>https://knuutila.net/blog/2023/08/12/conjoint-multilevel-multinomial-guide/index.html</loc>
+    <lastmod>2023-09-26T19:25:53.832Z</lastmod>
   </url>
   <url>
-    <loc>https://knuutila.net/research/working-papers/heiss-ye-china-ongos/index.html</loc>
-    <lastmod>2023-09-17T20:09:39.784Z</lastmod>
+    <loc>https://knuutila.net/blog/index.html</loc>
+    <lastmod>2023-09-26T19:25:55.219Z</lastmod>
+  </url>
+  <url>
+    <loc>https://knuutila.net/research/articles/herasimenka-2023/index.html</loc>
+    <lastmod>2023-09-26T19:25:55.880Z</lastmod>
   </url>
   <url>
     <loc>https://knuutila.net/talks/index.html</loc>
-    <lastmod>2023-09-17T20:09:40.536Z</lastmod>
+    <lastmod>2023-09-26T19:25:56.575Z</lastmod>
   </url>
 </urlset>
