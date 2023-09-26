@@ -5,19 +5,17 @@
   },
   {
     "listing": "/research/index.html",
-    "items": [
-      "/research/articles/herasimenka-2023/index.html"
-    ]
+    "items": []
   },
   {
-    "listing": "/atom.html",
+    "listing": "/blog/index.html",
     "items": [
       "/blog/2023/08/15/matrix-multiply-logit-predict/index.html",
       "/blog/2023/08/12/conjoint-multilevel-multinomial-guide/index.html"
     ]
   },
   {
-    "listing": "/blog/index.html",
+    "listing": "/atom.html",
     "items": [
       "/blog/2023/08/15/matrix-multiply-logit-predict/index.html",
       "/blog/2023/08/12/conjoint-multilevel-multinomial-guide/index.html"
