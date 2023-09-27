@@ -24,7 +24,7 @@ project:
     #- "pgp_ath.asc.txt"
 
 execute:
-  freeze: auto
+  freeze: true
 
 bibliography: files/bib/references.bib
 #csl: files/bib/chicago-author-date.csl
