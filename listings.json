@@ -5,20 +5,39 @@
   },
   {
     "listing": "/research/index.html",
-    "items": []
-  },
-  {
-    "listing": "/blog/index.html",
     "items": [
-      "/blog/2023/08/15/matrix-multiply-logit-predict/index.html",
-      "/blog/2023/08/12/conjoint-multilevel-multinomial-guide/index.html"
+      "/research/articles/seta-2023/index.html",
+      "/research/articles/herasimenka-2023-a/index.html",
+      "/research/articles/herasimenka-2023/index.html",
+      "/research/articles/kosonen-2022/index.html",
+      "/research/articles/saresma-2022/index.html",
+      "/research/articles/knuutila-2022/index.html",
+      "/research/articles/kannasto-2022/index.html",
+      "/research/articles/knuutila-2022-a/index.html",
+      "/research/articles/knuutila-2021/index.html",
+      "/research/articles/knuutila-2020/index.html",
+      "/research/articles/knuutila-2020-a/index.html",
+      "/research/articles/knuutila-2020-b/index.html",
+      "/research/articles/knuutila-2020-c/index.html",
+      "/research/articles/neudert-2020/index.html",
+      "/research/articles/poikola-2020/index.html",
+      "/research/articles/saresma-2020/index.html",
+      "/research/articles/knuutila-2019-a/index.html",
+      "/research/articles/knuutila-2019/index.html",
+      "/research/articles/saresma-2019/index.html",
+      "/research/articles/knuutila-2017/index.html"
     ]
   },
   {
     "listing": "/atom.html",
     "items": [
-      "/blog/2023/08/15/matrix-multiply-logit-predict/index.html",
-      "/blog/2023/08/12/conjoint-multilevel-multinomial-guide/index.html"
+      "/blog/2023/09/28/thisinequalitydoesnotexist/index.html"
+    ]
+  },
+  {
+    "listing": "/blog/index.html",
+    "items": [
+      "/blog/2023/09/28/thisinequalitydoesnotexist/index.html"
     ]
   },
   {

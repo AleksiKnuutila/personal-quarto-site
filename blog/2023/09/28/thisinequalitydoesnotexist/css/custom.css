@@ -1,0 +1,135 @@
+/*************************************************************************
+ * Your custom CSS file
+ *************************************************************************/
+
+.custom-dropdown {
+  width: 240px;
+}
+
+.custom-textbox {
+  width: 240px;
+}
+
+#dialog-1,
+#dialog-2,
+#dialog-3,
+#dialog-4,
+#share-dialog {
+  display: none;
+}
+
+#share-url {
+  width: 100%;
+  -webkit-touch-callout: default !important;
+  -webkit-user-select: text !important;
+  -khtml-user-select: text !important;
+  -moz-user-select: text !important;
+  -ms-user-select: text !important;
+  user-select: text !important;
+}
+
+#share-url-copy-prompt {
+  display: none;
+  color: #007bff;
+}
+
+input {
+  background: linear-gradient(to right, #005BB9 0%, #005BB9 50%, grey 50%, grey 100%);
+  border: solid 1px grey;
+  border-radius: 8px;
+  height: 10px;
+  width: 356px;
+  outline: none; 
+  transition: background 450ms ease-in;
+  -webkit-appearance: none;
+  margin-bottom: 25px;
+  opacity: 0.85;
+}
+
+input[type="range"]:hover {
+  opacity: 1;
+}
+
+
+input::-webkit-slider-thumb {
+  background-color: #005BB9;
+  border-radius: 0;
+      
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  -webkit-appearance: none;
+}
+
+.custom-image-button {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+  box-sizing: border-box;
+  text-decoration: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.custom-button {
+  padding: 15px 20px;
+  text-align: center;
+  font-size: 17px;
+  line-height: 15px;
+  outline: none;
+  border-radius: 2px;
+  cursor: pointer;
+  box-shadow: none;
+  transition: background-color 0.1s, box-shadow 0.1s, border 0.1s;
+  text-decoration: none;
+  display: block;
+  box-sizing: border-box;
+  color: white;
+  border: 1px solid #7d7d7d;
+  background-color: #7d7d7d;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.custom-button:not(:disabled):hover {
+  background-color: #4d4d4d;
+  border-color: #4d4d4d;
+}
+
+.custom-button:not(:disabled):active {
+  background-color: #4d4d4d;
+  border-color: #4d4d4d;
+}
+
+.custom-button:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.custom-button-primary {
+  background-color: #005BB9;
+  border-color: #005BB9;
+  opacity: 0.85;
+}
+
+.custom-button-primary:not(:disabled):hover {
+  background-color: #005BB9;
+  border-color: #005BB9;
+  opacity: 1;
+}
+
+.custom-button-primary:not(:disabled):active {
+  background-color: #005cbf;
+  border-color: #005cbf;
+}

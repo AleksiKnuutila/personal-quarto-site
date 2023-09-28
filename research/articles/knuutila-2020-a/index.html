@@ -22,6 +22,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -110,16 +144,16 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="../../../cv/index.html" rel="" target="">
+ <span class="menu-text">CV</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="../../../blog/index.html" rel="" target="">
  <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../../research/index.html" rel="" target="">
  <span class="menu-text">Research</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../../talks/index.html" rel="" target="">
- <span class="menu-text">Talks</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -161,11 +195,23 @@ ul.task-list li input[type="checkbox"] {
             
             
                                     <div class="quarto-categories">
-                                <div class="quarto-category">OnRP</div>
+                                <div class="quarto-category">English</div>
+                                <div class="quarto-category">Misinformation</div>
                             </div>
                                 </div>
     </div>
     
+        <div class="project-details">
+        <div class="publication-content">
+            <p><strong>Aleksi Knuutila</strong>, Lisa-Maria Neudert and Philip N Howard, “Global Fears of Disinformation: Perceived Internet and Social Media Harms in 142 Countries,” <em>COMPROP Data Memo</em> no. 2020.8 (2020)</p>
+        </div>
+                <ul class="project-links">
+                        <li class="project-link">
+                <a href="https://demtech.oii.ox.ac.uk/research/posts/global-fears-of-disinformation-perceived-internet-and-social-media-harms-in-142-countries/"><i class="fa-solid fa-scroll"></i> Final version</a>
+            </li>
+                    </ul>
+            </div>
+
     
     
     <div class="quarto-title-meta">
@@ -189,18 +235,19 @@ ul.task-list li input[type="checkbox"] {
         
       </div>
       
-    <div>
-      <div class="abstract">
-        <div class="abstract-title">Abstract</div>
-        Internet disinformation, fraud and harassment have emerged as global concerns. While governments, industry, and civil society groups around the world struggle to address these concerns, there is little comparative data on public perception of the risks associated with using social media and the internet. In this memo, we analyze survey data of 154,195 participants living in 142 countries. On average, people rarely identify technology-related risks as the most prominent threats to their quality of life. But they feature prominently for a significant proportion of the global population and, naturally, feature very prominently for respondents who regularly use social media and the internet. First, we find that globally, disinformation is the single most important fear of internet and social media use and more than half (53%) of regular internet users are concerned about disinformation. Second, almost three quarters (71%) of internet users are worried about a mixture of threats, including online disinformation, fraud and harassment. Third, there is interesting variation in how concerned people are with particular internet harms: worry about the impact of disinformation is highest in North America and Europe, and lowest in East and South Asia; concern about online harassment is higher among women, and especially so among women in Latin America.
-      </div>
-    </div>
 
     
 </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
-    
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Contents</h2>
+   
+  <ul>
+  <li><a href="#abstract" id="toc-abstract" class="nav-link active" data-scroll-target="#abstract">Abstract</a></li>
+  <li><a href="#citation" id="toc-citation" class="nav-link" data-scroll-target="#citation">Citation</a></li>
+  </ul>
+</nav>
 </nav>
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
@@ -209,10 +256,30 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
+<!-- This needs to be added because some issues with dependencies -->
+<link href="../site_libs/quarto-contrib/academicons-1.9.2/all.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/academicons-1.9.2/size.css" rel="stylesheet">
 
 
 
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>Internet disinformation, fraud and harassment have emerged as global concerns. While governments, industry, and civil society groups around the world struggle to address these concerns, there is little comparative data on public perception of the risks associated with using social media and the internet. In this memo, we analyze survey data of 154,195 participants living in 142 countries. On average, people rarely identify technology-related risks as the most prominent threats to their quality of life. But they feature prominently for a significant proportion of the global population and, naturally, feature very prominently for respondents who regularly use social media and the internet. First, we find that globally, disinformation is the single most important fear of internet and social media use and more than half (53%) of regular internet users are concerned about disinformation. Second, almost three quarters (71%) of internet users are worried about a mixture of threats, including online disinformation, fraud and harassment. Third, there is interesting variation in how concerned people are with particular internet harms: worry about the impact of disinformation is highest in North America and Europe, and lowest in East and South Asia; concern about online harassment is higher among women, and especially so among women in Latin America.</p>
+</section>
+<section id="citation" class="level2">
+<h2 class="anchored" data-anchor-id="citation">Citation</h2>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="va">@book</span>{<span class="ot">Knuutila2020a</span>,</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a> <span class="dt">author</span> = {Knuutila, Aleksi and Neudert, Lisa-Maria and Howard, Philip N},</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a> <span class="dt">number</span> = {2020.8},</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a> <span class="dt">publisher</span> = {COMPROP Data Memo},</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a> <span class="dt">series</span> = {COMPROP Data Memo},</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a> <span class="dt">title</span> = {Global Fears of Disinformation: Perceived Internet and Social Media Harms in 142 Countries},</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a> <span class="dt">url</span> = {https://demtech.oii.ox.ac.uk/research/posts/global-fears-of-disinformation-perceived-internet-and-social-media-harms-in-142-countries/},</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a> <span class="dt">year</span> = {2020}</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
+
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -456,7 +523,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-center">
       &nbsp;
     </div>
-    <div class="nav-footer-right"><span class="faux-block">Made with <a href="https://quarto.org/">Quarto</a></span> <span class="faux-block"><a href="https://github.com/andrewheiss/ath-quarto">View the source at <i class="fa-brands fa-github" aria-label="github"></i> GitHub</a></span></div>
+    <div class="nav-footer-right"><span class="faux-block">Made with <a href="https://quarto.org/">Quarto</a></span> <span class="faux-block"><a href="https://github.com/AleksiKnuutila/personal-quarto-site">View the source at <i class="fa-brands fa-github" aria-label="github"></i> GitHub</a></span></div>
   </div>
 </footer>
 

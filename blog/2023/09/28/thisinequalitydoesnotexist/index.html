@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Aleksi Knuutila">
-<meta name="description" content="Aleksi Knuutila is a Senior Researcher in Sociology at the University of Helsinki">
+<meta name="description" content="Generative models such as DALL-E or Generative Adverserial Networks (GANs) are primarily known as accessible, low-cost ways to generate images. Could they also be used to study social phenomena, such as the visual aspects of social processes in cities?">
 
-<title>Synthetic ethnography: Field devices for the qualitative study of generative models | Aleksi Knuutila</title>
+<title>This inequality does not exist - Generative AI for social science | Aleksi Knuutila</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,63 +22,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
-<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../../">
-<link href="../../..//files/favicon-512.png" rel="icon" type="image/png">
-<script src="../../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<link href="../../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-contrib/academicons-1.9.2/all.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-contrib/academicons-1.9.2/size.css" rel="stylesheet">
+<script src="../../../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../../../">
+<link href="../../../../..//files/favicon-512.png" rel="icon" type="image/png">
+<script src="../../../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../../../../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="../../../../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -102,26 +66,29 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <style>
 
       .quarto-title-block .quarto-title-banner {
-        background: #CF4446;
+        background: #170C3A;
       }
 </style>
+<script src="js/update_image.js" defer=""></script>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 
 
-<meta property="og:title" content="Synthetic ethnography: Field devices for the qualitative study of generative models | Aleksi Knuutila">
-<meta property="og:description" content="Aleksi Knuutila is a Senior Researcher in Sociology at the University of Helsinki">
-<meta property="og:image" content="https://knuutila.net/files/profiles/twitter-card-large.png">
+<link rel="stylesheet" href="css/custom.css">
+<meta property="og:title" content="This inequality does not exist - Generative AI for social science | Aleksi Knuutila">
+<meta property="og:description" content="Generative models such as DALL-E or Generative Adverserial Networks (GANs) are primarily known as accessible, low-cost ways to generate images. Could they also be used to study social phenomena, such as the visual aspects of social processes in cities?">
+<meta property="og:image" content="https://knuutila.net/blog/2023/09/28/thisinequalitydoesnotexist/social-image.png">
 <meta property="og:site-name" content="Aleksi Knuutila">
 <meta property="og:locale" content="en_US">
-<meta property="og:image:height" content="1257">
-<meta property="og:image:width" content="2401">
-<meta name="twitter:title" content="Synthetic ethnography: Field devices for the qualitative study of generative models | Aleksi Knuutila">
-<meta name="twitter:description" content="Aleksi Knuutila is a Senior Researcher in Sociology at the University of Helsinki">
-<meta name="twitter:image" content="https://knuutila.net/files/profiles/twitter-card-large.png">
+<meta property="og:image:height" content="628">
+<meta property="og:image:width" content="1200">
+<meta name="twitter:title" content="This inequality does not exist - Generative AI for social science | Aleksi Knuutila">
+<meta name="twitter:description" content="Generative models such as DALL-E or Generative Adverserial Networks (GANs) are primarily known as accessible, low-cost ways to generate images. Could they also be used to study social phenomena, such as the visual aspects of social processes in cities?">
+<meta name="twitter:image" content="https://knuutila.net/blog/2023/09/28/thisinequalitydoesnotexist/social-image.png">
 <meta name="twitter:creator" content="@knuutila">
 <meta name="twitter:site" content="@knuutila">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image-height" content="1257">
-<meta name="twitter:image-width" content="2401">
+<meta name="twitter:image-height" content="628">
+<meta name="twitter:image-width" content="1200">
 </head>
 
 <body class="floating nav-fixed">
@@ -131,7 +98,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="../../../index.html">
+    <a class="navbar-brand" href="../../../../../index.html">
     <span class="navbar-title">Aleksi Knuutila</span>
     </a>
   </div>
@@ -142,25 +109,25 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../../index.html" rel="" target="">
+    <a class="nav-link" href="../../../../../index.html" rel="" target="">
  <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../cv/index.html" rel="" target="">
+    <a class="nav-link" href="../../../../../cv/index.html" rel="" target="">
  <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../blog/index.html" rel="" target="">
+    <a class="nav-link" href="../../../../../blog/index.html" rel="" target="">
  <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../research/index.html" rel="" target="">
+    <a class="nav-link" href="../../../../../research/index.html" rel="" target="">
  <span class="menu-text">Research</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="../../../atom.xml" rel="" target=""><i class="bi bi-rss" role="img" aria-label="rss">
+    <a class="nav-link" href="../../../../../atom.xml" rel="" target=""><i class="bi bi-rss" role="img" aria-label="rss">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
@@ -187,81 +154,49 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block research default toc-left page-columns page-full">
-    <div class="quarto-title-banner page-columns page-full">
-                <div class="back-nav"><a href="../../../research/">← Back to research</a></div>
-                <div class="quarto-title column-body">
-            <h1 class="title">Synthetic ethnography: Field devices for the qualitative study of generative models</h1>
+<header id="title-block-header" class="quarto-title-block default blog-post page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">This inequality does not exist - Generative AI for social science</h1>
+                  <div>
+        <div class="description">
+          Generative models such as DALL-E or Generative Adverserial Networks (GANs) are primarily known as accessible, low-cost ways to generate images. Could they also be used to study social phenomena, such as the visual aspects of social processes in cities?
+        </div>
+      </div>
+                </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
 
-            
-            
-            
-                                    <div class="quarto-categories">
-                                <div class="quarto-category">Artificial intelligence</div>
-                                <div class="quarto-category">English</div>
-                                <div class="quarto-category">Ethnography</div>
-                                <div class="quarto-category">Generative models</div>
-                                <div class="quarto-category">Machine learning</div>
-                            </div>
-                                </div>
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p><a href="https://knuutila.net/">Aleksi Knuutila</a> <a href="https://orcid.org/0000-0002-9874-0079" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">Thursday, September 28, 2023</p>
+      </div>
     </div>
     
-        <div class="project-details">
-        <div class="publication-content">
-            <p>Gabriele de Seta, Matti Pohjonen and <strong>Aleksi Knuutila</strong>, “Synthetic ethnography: Field devices for the qualitative study of generative models,” <em>SocArXiv</em> (2023) , doi: <a href="https://doi.org/10.31235/osf.io/zvew4"><code>10.31235/osf.io/zvew4</code></a></p>
-        </div>
-                <ul class="project-links">
-                        <li class="project-link">
-                <a href="https://doi.org/10.31235/osf.io/zvew4"><i class="fa-solid fa-scroll"></i> Final version</a>
-            </li>
-                        <li class="project-link">
-                <a href="https://www.zotero.org/save?type=doi&amp;q=10.31235/osf.io/zvew4"><i class="ai ai-zotero"></i> Add to Zotero</a>
-            </li>
-                    </ul>
-            </div>
-
-    
-    
-    <div class="quarto-title-meta">
-
-        <div>
-        <div class="quarto-title-meta-heading">Authors</div>
-        <div class="quarto-title-meta-contents">
-                 <p>Gabriele de Seta </p>
-                 <p>Matti Pohjonen </p>
-                 <p>Aleksi Knuutila </p>
-              </div>
-      </div>
-        
-        <div>
-        <div class="quarto-title-meta-heading">Published</div>
-        <div class="quarto-title-meta-contents">
-          <p class="date">July 2023</p>
-        </div>
-      </div>
       
-        
-        <div>
-        <div class="quarto-title-meta-heading">Doi</div>
-        <div class="quarto-title-meta-contents">
-          <p class="doi">
-            <a href="https://doi.org/10.31235/osf.io/zvew4">10.31235/osf.io/zvew4</a>
-          </p>
-        </div>
-      </div>
-      </div>
-      
-
+    </div>
     
-</header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
     <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">Contents</h2>
    
   <ul>
-  <li><a href="#abstract" id="toc-abstract" class="nav-link active" data-scroll-target="#abstract">Abstract</a></li>
-  <li><a href="#citation" id="toc-citation" class="nav-link" data-scroll-target="#citation">Citation</a></li>
+  <li><a href="#explanation" id="toc-explanation" class="nav-link active" data-scroll-target="#explanation">Explanation</a></li>
+  <li><a href="#how-it-works" id="toc-how-it-works" class="nav-link" data-scroll-target="#how-it-works">How it works</a></li>
+  <li><a href="#who-made-this" id="toc-who-made-this" class="nav-link" data-scroll-target="#who-made-this">Who made this</a></li>
   </ul>
 </nav>
 </nav>
@@ -270,34 +205,49 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
-
-<!-- This needs to be added because some issues with dependencies -->
-<link href="../site_libs/quarto-contrib/academicons-1.9.2/all.css" rel="stylesheet">
-<link href="../site_libs/quarto-contrib/academicons-1.9.2/size.css" rel="stylesheet">
+<main class="content quarto-banner-title-block page-columns page-full" id="quarto-document-content">
 
 
 
-<section id="abstract" class="level2">
-<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
-<p>The development of generative artificial intelligence sustains a proliferation of machine learning models capable of synthesizing text, images, sounds, and other kinds of content. While the increasing realism of synthetic content stokes fears about misinformation and triggers debates around intellectual property, generative models are adopted across creative industries, and synthetic media is already becoming an integral component of cultural products. Qualitative research in the social and human sciences has dedicated comparatively little attention to this category of machine learning, particularly in terms of what types of novel research methodology they both demand and facilitate. In this article, we propose a methodological approach for the qualitative study of generative models grounded on the experimentation with field devices which we call synthetic ethnography. Synthetic ethnography is not simply a qualitative research methodology applied to the study of the social and cultural contexts developing around generative models, but also strives to envision practical and experimental ways to repurpose these technologies as research tools in their own right. After briefly introducing generative models and synthetic media and revisiting the trajectory of digital ethnographic research, we discuss three case studies for which the authors have developed experimental field devices to study different generative AI ethnographically. In the conclusion, we derive a broader methodological proposal from these case studies, arguing that synthetic ethnography facilitates insights into how the algorithmic processes, training datasets and latent spaces behind these systems modulate bias, reconfigure agency, and challenge epistemological categories.</p>
-</section>
-<section id="citation" class="level2">
-<h2 class="anchored" data-anchor-id="citation">Citation</h2>
-<p class="buttons" style="text-align:center;">
-<a class="btn btn-danger" target="_blank" href="https://www.zotero.org/save?type=doi&amp;q=10.31235/osf.io/zvew4"><i class="ai  ai-zotero" title="" style="color:"></i> Add to Zotero <i class="fa-solid fa-square-arrow-up-right" aria-label="square-arrow-up-right"></i></a>
+
+<div class="column-page-inset-right">
+<div class="grid">
+<div class="g-col-12 g-col-xl-7 keep-large">
+<style>
+.keep-large {
+  min-width: 520px;
+}
+</style>
+<img class="image" id="projimg" src="https://causewegangangan.s3.eu-west-2.amazonaws.com/sg2proj_combined_inference_precise/1/proj_styleganproj_edu0_health0_inc0_code1.jpg" style="margin-bottom: 10px;">
+</div>
+<div class="g-col-12 g-col-xl-4">
+<p class="text text-large">
+  <button class="custom-button custom-button-primary" onclick="change_lc_code();">Change street</button><br>
+  Income<br>
+  <input id="input_inc" class="var_slider" type="range" min="-12" value="0" max="12" step="1" style="width: 300px;"><br>
+  Health<br>
+  <input id="input_health" class="var_slider" type="range" min="-12" value="0" max="12" step="1" style="width: 300px;"><br>
+  Education<br>
+  <input id="input_edu" class="var_slider" type="range" min="-12" value="0" max="12" step="1" style="width: 300px;"><input type="hidden" id="latentcode" name="latentcode" value="1">
 </p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="va">@misc</span>{<span class="ot">Seta2023</span>,</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a> <span class="dt">author</span> = {de Seta, Gabriele and Pohjonen, Matti and Knuutila, Aleksi},</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a> <span class="dt">doi</span> = {10.31235/osf.io/zvew4},</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a> <span class="dt">month</span> = {July},</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a> <span class="dt">publisher</span> = {SocArXiv},</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a> <span class="dt">shorttitle</span> = {Synthetic ethnography},</span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a> <span class="dt">title</span> = {Synthetic ethnography: Field devices for the qualitative study of generative models},</span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a> <span class="dt">url</span> = {https://osf.io/preprints/socarxiv/zvew4/},</span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a> <span class="dt">urldate</span> = {2023-09-14},</span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a> <span class="dt">year</span> = {2023}</span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div>
+</div>
+<section id="explanation" class="level2">
+<h2 class="anchored" data-anchor-id="explanation">Explanation</h2>
+<p>Generative models such as DALL-E or Generative Adverserial Networks (GANs) are primarily known as accessible, low-cost ways to generate images. Could they also be used to study social phenomena, such as the visual aspects of social processes in cities?</p>
+<p><em>This inequality does not exist</em> is a demo of a generative models, like others in the refrain of <a href="https://thisxdoesnotexist.com">This X does not exist</a>. It displays the outputs of a GAN model that was trained on tens of thousands of photographs of housing in London, sourced from Google Streetview.</p>
+</section>
+<section id="how-it-works" class="level2">
+<h2 class="anchored" data-anchor-id="how-it-works">How it works</h2>
+<p>We connected the photographs from Streetview with data from the Indices of Multiple Deprivation, describing levels of income, education and environmental health across the city. The resulting GAN model generates novel, synthetic images of housing that can be manipulated according to these contextual variables.</p>
+<p>By pulling on the sliders next to images, you can compare the visual differences between privileged or deprived areas of the capital. It is a way to visualise an abstract social process, inequality in the city, that would otherwise be difficult to see.</p>
+<p>A technical paper describing the project will be available later.</p>
+<p>This inequality doesn’t exist is an experiment in trying out how models such as GANs can be used to produce knowledge. Latent space walks suggest a speculative configuration for knowledge production that relies on synthetic data and retains a role of interpretation by human participants. This process demonstrates the variety of uses that mathematical concepts and technical systems such as the latent spaces of generative models can be put to.</p>
+</section>
+<section id="who-made-this" class="level2">
+<h2 class="anchored" data-anchor-id="who-made-this">Who made this</h2>
+<p>The project is authored by <u><a href="https://www.helsinki.fi/fi/tutustu-meihin/ihmiset/henkilohaku/aleksi-knuutila-9084807">Aleksi Knuutila</a></u>. Aleksi Knuutila is an anthropologist and a computational social scientists working at the University of Helsinki and the University of Oxford. His work focuses on combining machine learning with qualitative research workflows, to enable new forms of investigations.</p>
 
 
 </section>

@@ -75,9 +75,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: [{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-project','listing-execute','listing-bibliography','listing-pagetitle','listing-description-meta','listing-author-meta','listing-website','listing-format','listing-_quarto-vars','listing-language','listing-date-format','listing-title-block-banner','listing-toc','listing-toc-title','listing-toc-location','listing-include-back-link','listing-title','listing-author','listing-date','listing-entry_type','listing-doi','listing-publication','listing-categories','listing-pub-info','listing-path','listing-outputHref','listing-date-modified','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-publisher',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] }],
       
-      searchColumns: [],
+      searchColumns: ["listing-project","listing-execute","listing-bibliography","listing-pagetitle","listing-description-meta","listing-author-meta","listing-website","listing-format","listing-_quarto-vars","listing-language","listing-date-format","listing-title-block-banner","listing-toc","listing-toc-title","listing-toc-location","listing-include-back-link","listing-title","listing-author","listing-date","listing-entry_type","listing-doi","listing-publication","listing-categories","listing-pub-info","listing-path","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-publisher"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -143,16 +143,16 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="../cv/index.html" rel="" target="">
+ <span class="menu-text">CV</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="../blog/index.html" rel="" target="">
  <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="../research/index.html" rel="" target="" aria-current="page">
  <span class="menu-text">Research</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../talks/index.html" rel="" target="">
- <span class="menu-text">Talks</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -217,9 +217,13 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#articles" id="toc-articles" class="nav-link active" data-scroll-target="#articles">Articles</a></li>
   </ul>
 </nav>
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(0)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(20)</span></div><div class="category" data-category="Artificial intelligence">Artificial intelligence <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Content moderation">Content moderation <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Data infrastructure">Data infrastructure <span class="quarto-category-count">(2)</span></div><div class="category" data-category="English">English <span class="quarto-category-count">(10)</span></div><div class="category" data-category="Ethnography">Ethnography <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Finnish">Finnish <span class="quarto-category-count">(10)</span></div><div class="category" data-category="Generative models">Generative models <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Hate speech">Hate speech <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Machine learning">Machine learning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Misinformation">Misinformation <span class="quarto-category-count">(7)</span></div><div class="category" data-category="News Media">News Media <span class="quarto-category-count">(1)</span></div><div class="category" data-category="News media">News media <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Political communication">Political communication <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Telegram">Telegram <span class="quarto-category-count">(2)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+
+<!-- This needs to be added because some issues with dependencies -->
+<link href="../site_libs/quarto-contrib/academicons-1.9.2/all.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/academicons-1.9.2/size.css" rel="stylesheet">
 
 
 
@@ -227,8 +231,619 @@ ul.task-list li input[type="checkbox"] {
 <section id="articles" class="level2">
 <h2 class="anchored" data-anchor-id="articles">Articles</h2>
 <div id="listing-articles" class="quarto-listing quarto-listing-container-custom">
+<!-- This needs to be added because some issues with dependencies -->
+<link href="../site_libs/quarto-contrib/academicons-1.9.2/all.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/academicons-1.9.2/size.css" rel="stylesheet">
 <div class="research project-list">
 <ul class="list">
+        <li class="project" data-index="0" data-categories="Artificial intelligence,English,Ethnography,Generative models,Machine learning" data-listing-date-sort="1688158800000" data-listing-file-modified-sort="1695818880316" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+            <div class="project-content listing-pub-info">
+                <p>Gabriele de Seta, Matti Pohjonen and <strong>Aleksi Knuutila</strong>, “Synthetic ethnography: Field devices for the qualitative study of generative models,” <em>SocArXiv</em>
+(2023) , doi: <a href="https://doi.org/10.31235/osf.io/zvew4"><code>10.31235/osf.io/zvew4</code></a></p>
+            </div>
+            <div class="project-categories">
+                    <div class="project-category"><a href="#category=Artificial intelligence">
+                            Artificial intelligence
+                        </a></div>
+                    <div class="project-category"><a href="#category=English">
+                            English
+                        </a></div>
+                    <div class="project-category"><a href="#category=Ethnography">
+                            Ethnography
+                        </a></div>
+                    <div class="project-category"><a href="#category=Generative models">
+                            Generative models
+                        </a></div>
+                    <div class="project-category"><a href="#category=Machine learning">
+                            Machine learning
+                        </a></div>
+            </div>
+            <div class="project-details-listing">
+                <ul class="project-links">
+                    <li class="project-link details">
+                        <a href="../research/articles/seta-2023/index.html" class="listing-name">
+                            <i class="fa-solid fa-circle-info"></i> Full details »
+                        </a>
+                    </li>
+                    <li class="project-link">
+                        <a href="https://doi.org/10.31235/osf.io/zvew4">
+                            <i class="fa-solid fa-scroll"></i> Final version
+                        </a>
+                    </li>
+                    <li class="project-link">
+                        <a href="https://www.zotero.org/save?type=doi&amp;q=10.31235/osf.io/zvew4">
+                            <i class="ai ai-zotero"></i> Add to Zotero
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li class="project" data-index="1" data-categories="English,Misinformation" data-listing-date-sort="1680296400000" data-listing-file-modified-sort="1695818880262" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+            <div class="project-content listing-pub-info">
+                <p>Aliaksandr Herasimenka, Yung Au, Anna George, Kate Joynes-Burgess, <strong>Aleksi Knuutila</strong>, Jonathan Bright and Philip N Howard, “The political economy of digital profiteering: communication resource mobilization by anti-vaccination actors,” <em>Journal of Communication</em> 73, no. 2 (2023): pp. 126–137 , doi: <a href="https://doi.org/10.1093/joc/jqac043"><code>10.1093/joc/jqac043</code></a></p>
+            </div>
+            <div class="project-categories">
+                    <div class="project-category"><a href="#category=English">
+                            English
+                        </a></div>
+                    <div class="project-category"><a href="#category=Misinformation">
+                            Misinformation
+                        </a></div>
+            </div>
+            <div class="project-details-listing">
+                <ul class="project-links">
+                    <li class="project-link details">
+                        <a href="../research/articles/herasimenka-2023-a/index.html" class="listing-name">
+                            <i class="fa-solid fa-circle-info"></i> Full details »
+                        </a>
+                    </li>
+                    <li class="project-link">
+                        <a href="https://doi.org/10.1093/joc/jqac043">
+                            <i class="fa-solid fa-scroll"></i> Final version
+                        </a>
+                    </li>
+                    <li class="project-link">
+                        <a href="https://www.zotero.org/save?type=doi&amp;q=10.1093/joc/jqac043">
+                            <i class="ai ai-zotero"></i> Add to Zotero
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li class="project" data-index="2" data-categories="English,Misinformation,News media,Telegram" data-listing-date-sort="1680296400000" data-listing-file-modified-sort="1695818880259" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+            <div class="project-content listing-pub-info">
+                <p>Aliaksandr Herasimenka, Jonathan Bright, <strong>Aleksi Knuutila</strong> and Philip N. Howard, “Misinformation and professional news on largely unmoderated platforms: the case of telegram,” <em>Journal of Information Technology &amp; Politics</em> 20, no. 2 (2023): pp. 198–212 , doi: <a href="https://doi.org/10.1080/19331681.2022.2076272"><code>10.1080/19331681.2022.2076272</code></a></p>
+            </div>
+            <div class="project-categories">
+                    <div class="project-category"><a href="#category=English">
+                            English
+                        </a></div>
+                    <div class="project-category"><a href="#category=Misinformation">
+                            Misinformation
+                        </a></div>
+                    <div class="project-category"><a href="#category=News media">
+                            News media
+                        </a></div>
+                    <div class="project-category"><a href="#category=Telegram">
+                            Telegram
+                        </a></div>
+            </div>
+            <div class="project-details-listing">
+                <ul class="project-links">
+                    <li class="project-link details">
+                        <a href="../research/articles/herasimenka-2023/index.html" class="listing-name">
+                            <i class="fa-solid fa-circle-info"></i> Full details »
+                        </a>
+                    </li>
+                    <li class="project-link">
+                        <a href="https://doi.org/10.1080/19331681.2022.2076272">
+                            <i class="fa-solid fa-scroll"></i> Final version
+                        </a>
+                    </li>
+                    <li class="project-link">
+                        <a href="https://www.zotero.org/save?type=doi&amp;q=10.1080/19331681.2022.2076272">
+                            <i class="ai ai-zotero"></i> Add to Zotero
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li class="project" data-index="3" data-categories="Finnish,Hate speech" data-listing-date-sort="1661979600000" data-listing-file-modified-sort="1695818880299" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+            <div class="project-content listing-pub-info">
+                <p>Heidi Kosonen, Tuija Saresma, Reeta Pöyhtäri, Paula Haara, Kaarina Nikunen, <strong>Aleksi Knuutila</strong> and Miia Tikka, “Verkkoviha väkivaltana – vihapuhetutkijoiden näkökulmia,” <em>Lähikuva – audiovisuaalisen kulttuurin tieteellinen julkaisu</em> 35, no. 3 (2022): pp. 74–82 , doi: <a href="https://doi.org/10.23994/lk.121897"><code>10.23994/lk.121897</code></a></p>
+            </div>
+            <div class="project-categories">
+                    <div class="project-category"><a href="#category=Finnish">
+                            Finnish
+                        </a></div>
+                    <div class="project-category"><a href="#category=Hate speech">
+                            Hate speech
+                        </a></div>
+            </div>
+            <div class="project-details-listing">
+                <ul class="project-links">
+                    <li class="project-link details">
+                        <a href="../research/articles/kosonen-2022/index.html" class="listing-name">
+                            <i class="fa-solid fa-circle-info"></i> Full details »
+                        </a>
+                    </li>
+                    <li class="project-link">
+                        <a href="https://doi.org/10.23994/lk.121897">
+                            <i class="fa-solid fa-scroll"></i> Final version
+                        </a>
+                    </li>
+                    <li class="project-link">
+                        <a href="https://www.zotero.org/save?type=doi&amp;q=10.23994/lk.121897">
+                            <i class="ai ai-zotero"></i> Add to Zotero
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li class="project" data-index="4" data-categories="Finnish,Hate speech" data-listing-date-sort="1654030800000" data-listing-file-modified-sort="1695818880313" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+            <div class="project-content listing-pub-info">
+                <p>Tuija Saresma, Reeta Pöyhtäri, <strong>Aleksi Knuutila</strong>, Heidi Kosonen, Urho Tulonen, Kaarina Nikunen, Jenita Rauta and Marko Juutinen, “Verkkoviha: Vihapuheen tuottajien ja levittäjien verkostot, toimintamuodot ja motiivit,” <em>Valtioneuvoston kanslia</em>
+(2022) </p>
+            </div>
+            <div class="project-categories">
+                    <div class="project-category"><a href="#category=Finnish">
+                            Finnish
+                        </a></div>
+                    <div class="project-category"><a href="#category=Hate speech">
+                            Hate speech
+                        </a></div>
+            </div>
+            <div class="project-details-listing">
+                <ul class="project-links">
+                    <li class="project-link details">
+                        <a href="../research/articles/saresma-2022/index.html" class="listing-name">
+                            <i class="fa-solid fa-circle-info"></i> Full details »
+                        </a>
+                    </li>
+                    <li class="project-link">
+                        <a href="http://urn.fi/URN:ISBN:978-952-383-298-5">
+                            <i class="fa-solid fa-scroll"></i> Final version
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li class="project" data-index="5" data-categories="English,Misinformation" data-listing-date-sort="1648760400000" data-listing-file-modified-sort="1695818880293" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+            <div class="project-content listing-pub-info">
+                <p><strong>Aleksi Knuutila</strong>, Lisa-Maria Neudert and Philip N. Howard, “Who is afraid of fake news? Modeling risk perceptions of misinformation in 142 countries,” <em>Harvard Kennedy School Misinformation Review</em>
+(2022) , doi: <a href="https://doi.org/10.37016/mr-2020-97"><code>10.37016/mr-2020-97</code></a></p>
+            </div>
+            <div class="project-categories">
+                    <div class="project-category"><a href="#category=English">
+                            English
+                        </a></div>
+                    <div class="project-category"><a href="#category=Misinformation">
+                            Misinformation
+                        </a></div>
+            </div>
+            <div class="project-details-listing">
+                <ul class="project-links">
+                    <li class="project-link details">
+                        <a href="../research/articles/knuutila-2022/index.html" class="listing-name">
+                            <i class="fa-solid fa-circle-info"></i> Full details »
+                        </a>
+                    </li>
+                    <li class="project-link">
+                        <a href="https://doi.org/10.37016/mr-2020-97">
+                            <i class="fa-solid fa-scroll"></i> Final version
+                        </a>
+                    </li>
+                    <li class="project-link">
+                        <a href="https://www.zotero.org/save?type=doi&amp;q=10.37016/mr-2020-97">
+                            <i class="ai ai-zotero"></i> Add to Zotero
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li class="project" data-index="6" data-categories="English,Political communication" data-listing-date-sort="1640988000000" data-listing-file-modified-sort="1695818880265" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+            <div class="project-content listing-pub-info">
+                <p>Elisa Kannasto, Salla-Maaria Laaksonen and <strong>Aleksi Knuutila</strong>, “I 🌹🍀 You! - Emojis as Emotional-Political Signifiers in Finnish Election Campaign Discussion Online,” <em>Proceedings of the 56th Hawaii International Conference on System Sciences</em>
+(2022) </p>
+            </div>
+            <div class="project-categories">
+                    <div class="project-category"><a href="#category=English">
+                            English
+                        </a></div>
+                    <div class="project-category"><a href="#category=Political communication">
+                            Political communication
+                        </a></div>
+            </div>
+            <div class="project-details-listing">
+                <ul class="project-links">
+                    <li class="project-link details">
+                        <a href="../research/articles/kannasto-2022/index.html" class="listing-name">
+                            <i class="fa-solid fa-circle-info"></i> Full details »
+                        </a>
+                    </li>
+                    <li class="project-link">
+                        <a href="https://hdl.handle.net/10125/102925">
+                            <i class="fa-solid fa-scroll"></i> Final version
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li class="project" data-index="7" data-categories="Content moderation,Finnish" data-listing-date-sort="1640988000000" data-listing-file-modified-sort="1695818880296" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+            <div class="project-content listing-pub-info">
+                <p><strong>Aleksi Knuutila</strong> and Riia Järvenpää, “Sosiaalisen median moderointi ei ratkaise yhteiskunnallisia ongelmia,” <em>Politiikasta.fi</em>
+(2022) </p>
+            </div>
+            <div class="project-categories">
+                    <div class="project-category"><a href="#category=Content moderation">
+                            Content moderation
+                        </a></div>
+                    <div class="project-category"><a href="#category=Finnish">
+                            Finnish
+                        </a></div>
+            </div>
+            <div class="project-details-listing">
+                <ul class="project-links">
+                    <li class="project-link details">
+                        <a href="../research/articles/knuutila-2022-a/index.html" class="listing-name">
+                            <i class="fa-solid fa-circle-info"></i> Full details »
+                        </a>
+                    </li>
+                    <li class="project-link">
+                        <a href="https://politiikasta.fi/sosiaalisen-median-moderointi-ei-ratkaise-yhteiskunnallisia-ongelmia/">
+                            <i class="fa-solid fa-scroll"></i> Final version
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li class="project" data-index="8" data-categories="English,Misinformation" data-listing-date-sort="1622494800000" data-listing-file-modified-sort="1695818880288" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+            <div class="project-content listing-pub-info">
+                <p><strong>Aleksi Knuutila</strong>, Aliaksandr Herasimenko, Hubert Au, Jonathan Bright and Philip N. Howard, “A Dataset of COVID-Related Misinformation Videos and their Spread on Social Media,” <em>Journal of Open Humanities Data</em> 7, no. 0 (2021): pp. 6 , doi: <a href="https://doi.org/10.5334/johd.24"><code>10.5334/johd.24</code></a></p>
+            </div>
+            <div class="project-categories">
+                    <div class="project-category"><a href="#category=English">
+                            English
+                        </a></div>
+                    <div class="project-category"><a href="#category=Misinformation">
+                            Misinformation
+                        </a></div>
+            </div>
+            <div class="project-details-listing">
+                <ul class="project-links">
+                    <li class="project-link details">
+                        <a href="../research/articles/knuutila-2021/index.html" class="listing-name">
+                            <i class="fa-solid fa-circle-info"></i> Full details »
+                        </a>
+                    </li>
+                    <li class="project-link">
+                        <a href="https://doi.org/10.5334/johd.24">
+                            <i class="fa-solid fa-scroll"></i> Final version
+                        </a>
+                    </li>
+                    <li class="project-link">
+                        <a href="https://www.zotero.org/save?type=doi&amp;q=10.5334/johd.24">
+                            <i class="ai ai-zotero"></i> Add to Zotero
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li class="project" data-index="9" data-categories="Finnish,Political communication" data-listing-date-sort="1598907600000" data-listing-file-modified-sort="1695818880277" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+            <div class="project-content listing-pub-info">
+                <p><strong>Aleksi Knuutila</strong> and Salla-Maaria Laaksonen, “Viraali vihaisuus ja tahmea nauru: tunteet ja algoritmit digitaalisessa vaalikampanjoinnissa,” <em>Politiikan ilmastonmuutos</em>
+(2020): pp. 394–418. Oikeusministeriö. </p>
+            </div>
+            <div class="project-categories">
+                    <div class="project-category"><a href="#category=Finnish">
+                            Finnish
+                        </a></div>
+                    <div class="project-category"><a href="#category=Political communication">
+                            Political communication
+                        </a></div>
+            </div>
+            <div class="project-details-listing">
+                <ul class="project-links">
+                    <li class="project-link details">
+                        <a href="../research/articles/knuutila-2020/index.html" class="listing-name">
+                            <i class="fa-solid fa-circle-info"></i> Full details »
+                        </a>
+                    </li>
+                    <li class="project-link">
+                        <a href="http://urn.fi/URN:ISBN:978-952-259-838-7">
+                            <i class="fa-solid fa-scroll"></i> Final version
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li class="project" data-index="10" data-categories="English,Misinformation" data-listing-date-sort="1577829600000" data-listing-file-modified-sort="1695818880280" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+            <div class="project-content listing-pub-info">
+                <p><strong>Aleksi Knuutila</strong>, Lisa-Maria Neudert and Philip N Howard, “Global Fears of Disinformation: Perceived Internet and Social Media Harms in 142 Countries,” <em>COMPROP Data Memo</em>
+no. 2020.8 (2020) </p>
+            </div>
+            <div class="project-categories">
+                    <div class="project-category"><a href="#category=English">
+                            English
+                        </a></div>
+                    <div class="project-category"><a href="#category=Misinformation">
+                            Misinformation
+                        </a></div>
+            </div>
+            <div class="project-details-listing">
+                <ul class="project-links">
+                    <li class="project-link details">
+                        <a href="../research/articles/knuutila-2020-a/index.html" class="listing-name">
+                            <i class="fa-solid fa-circle-info"></i> Full details »
+                        </a>
+                    </li>
+                    <li class="project-link">
+                        <a href="https://demtech.oii.ox.ac.uk/research/posts/global-fears-of-disinformation-perceived-internet-and-social-media-harms-in-142-countries/">
+                            <i class="fa-solid fa-scroll"></i> Final version
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li class="project" data-index="11" data-categories="English,Misinformation" data-listing-date-sort="1577829600000" data-listing-file-modified-sort="1695818880282" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+            <div class="project-content listing-pub-info">
+                <p><strong>Aleksi Knuutila</strong>, Aliaksandr Herasimenka, Hubert Au, Jonathan Bright, Rasmus Nielsen and Philip N Howard, “Covid-Related misinformation on Youtube: The spread of misinformation videos on social media and the effectiveness of platform policies,” <em>COMPROP Data Memo</em>
+no. 2020.6 (2020) </p>
+            </div>
+            <div class="project-categories">
+                    <div class="project-category"><a href="#category=English">
+                            English
+                        </a></div>
+                    <div class="project-category"><a href="#category=Misinformation">
+                            Misinformation
+                        </a></div>
+            </div>
+            <div class="project-details-listing">
+                <ul class="project-links">
+                    <li class="project-link details">
+                        <a href="../research/articles/knuutila-2020-b/index.html" class="listing-name">
+                            <i class="fa-solid fa-circle-info"></i> Full details »
+                        </a>
+                    </li>
+                    <li class="project-link">
+                        <a href="https://demtech.oii.ox.ac.uk/research/posts/youtube-platform-policies/">
+                            <i class="fa-solid fa-scroll"></i> Final version
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li class="project" data-index="12" data-categories="Content moderation,English,Misinformation,News Media,Telegram" data-listing-date-sort="1577829600000" data-listing-file-modified-sort="1695818880285" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+            <div class="project-content listing-pub-info">
+                <p><strong>Aleksi Knuutila</strong>, Aliaksandr Herasimenka, Jonathan Bright, Rasmus Nielsen and Philip N Howard, “Junk news distribution on Telegram: The visibiility of English-language news sources on public Telegram channels,” <em>COMPROP Data Memo</em>
+no. 2020.5 (2020) </p>
+            </div>
+            <div class="project-categories">
+                    <div class="project-category"><a href="#category=Content moderation">
+                            Content moderation
+                        </a></div>
+                    <div class="project-category"><a href="#category=English">
+                            English
+                        </a></div>
+                    <div class="project-category"><a href="#category=Misinformation">
+                            Misinformation
+                        </a></div>
+                    <div class="project-category"><a href="#category=News Media">
+                            News Media
+                        </a></div>
+                    <div class="project-category"><a href="#category=Telegram">
+                            Telegram
+                        </a></div>
+            </div>
+            <div class="project-details-listing">
+                <ul class="project-links">
+                    <li class="project-link details">
+                        <a href="../research/articles/knuutila-2020-c/index.html" class="listing-name">
+                            <i class="fa-solid fa-circle-info"></i> Full details »
+                        </a>
+                    </li>
+                    <li class="project-link">
+                        <a href="">
+                            <i class="fa-solid fa-scroll"></i> Final version
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li class="project" data-index="13" data-categories="Artificial intelligence,English" data-listing-date-sort="1577829600000" data-listing-file-modified-sort="1695818880301" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+            <div class="project-content listing-pub-info">
+                <p>Lisa-Maria Neudert, <strong>Aleksi Knuutila</strong> and Philip N Howard, “Global Attitudes Towards AI, Machine Learning &amp; Automated Decision Making,” <em>Oxford Commission on AI &amp; Good Governance</em>
+no. Working paper 2020.10 (2020) </p>
+            </div>
+            <div class="project-categories">
+                    <div class="project-category"><a href="#category=Artificial intelligence">
+                            Artificial intelligence
+                        </a></div>
+                    <div class="project-category"><a href="#category=English">
+                            English
+                        </a></div>
+            </div>
+            <div class="project-details-listing">
+                <ul class="project-links">
+                    <li class="project-link details">
+                        <a href="../research/articles/neudert-2020/index.html" class="listing-name">
+                            <i class="fa-solid fa-circle-info"></i> Full details »
+                        </a>
+                    </li>
+                    <li class="project-link">
+                        <a href="">
+                            <i class="fa-solid fa-scroll"></i> Final version
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li class="project" data-index="14" data-categories="Data infrastructure,Finnish" data-listing-date-sort="1577829600000" data-listing-file-modified-sort="1695818880304" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+            <div class="project-content listing-pub-info">
+                <p>Antti Poikola, Kai Kuikkaniemi, Ossi Kuittinen, Harri Honko, <strong>Aleksi Knuutila</strong> and Viivi Lähteenoja, “MyData – an introduction to human-centric use of personal data,” <em>Ministry of Transport and Communications</em>
+(2020) </p>
+            </div>
+            <div class="project-categories">
+                    <div class="project-category"><a href="#category=Data infrastructure">
+                            Data infrastructure
+                        </a></div>
+                    <div class="project-category"><a href="#category=Finnish">
+                            Finnish
+                        </a></div>
+            </div>
+            <div class="project-details-listing">
+                <ul class="project-links">
+                    <li class="project-link details">
+                        <a href="../research/articles/poikola-2020/index.html" class="listing-name">
+                            <i class="fa-solid fa-circle-info"></i> Full details »
+                        </a>
+                    </li>
+                    <li class="project-link">
+                        <a href="">
+                            <i class="fa-solid fa-scroll"></i> Final version
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li class="project" data-index="15" data-categories="Finnish,Hate speech" data-listing-date-sort="1577829600000" data-listing-file-modified-sort="1695818880310" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+            <div class="project-content listing-pub-info">
+                <p>Tuija Saresma, Reeta Pöyhtäri, Heidi Kosonen, Paula Haara and <strong>Aleksi Knuutila</strong>, “Poliittisten toimijoiden kokema vihapuhe sukupuolittuneena poliittisena väkivaltana,” <em>Sukupuolentutkimus</em> 33, no. 4 (2020): pp. 18–38 </p>
+            </div>
+            <div class="project-categories">
+                    <div class="project-category"><a href="#category=Finnish">
+                            Finnish
+                        </a></div>
+                    <div class="project-category"><a href="#category=Hate speech">
+                            Hate speech
+                        </a></div>
+            </div>
+            <div class="project-details-listing">
+                <ul class="project-links">
+                    <li class="project-link details">
+                        <a href="../research/articles/saresma-2020/index.html" class="listing-name">
+                            <i class="fa-solid fa-circle-info"></i> Full details »
+                        </a>
+                    </li>
+                    <li class="project-link">
+                        <a href="https://researchportal.tuni.fi/en/publications/poliittisten-toimijoiden-kokema-vihapuhe-sukupuolittuneena-poliit">
+                            <i class="fa-solid fa-scroll"></i> Final version
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li class="project" data-index="16" data-categories="Finnish,Political communication" data-listing-date-sort="1546293600000" data-listing-file-modified-sort="1695818880274" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+            <div class="project-content listing-pub-info">
+                <p><strong>Aleksi Knuutila</strong>, “Närkästyksen kone: miksi uusoikeiston ääni kuuluu verkossa muita vahvemmin,” <em>Politiikasta.fi</em>
+(2019) </p>
+            </div>
+            <div class="project-categories">
+                    <div class="project-category"><a href="#category=Finnish">
+                            Finnish
+                        </a></div>
+                    <div class="project-category"><a href="#category=Political communication">
+                            Political communication
+                        </a></div>
+            </div>
+            <div class="project-details-listing">
+                <ul class="project-links">
+                    <li class="project-link details">
+                        <a href="../research/articles/knuutila-2019-a/index.html" class="listing-name">
+                            <i class="fa-solid fa-circle-info"></i> Full details »
+                        </a>
+                    </li>
+                    <li class="project-link">
+                        <a href="https://politiikasta.fi/narkastyksen-kone-miksi-uusoikeiston-aani-kuuluu-verkossa-muita-vahvemmin/">
+                            <i class="fa-solid fa-scroll"></i> Final version
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li class="project" data-index="17" data-categories="Finnish,Hate speech" data-listing-date-sort="1546293600000" data-listing-file-modified-sort="1695818880271" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+            <div class="project-content listing-pub-info">
+                <p><strong>Aleksi Knuutila</strong>, Heidi Kosonen, Tuija Saresma, Paula Haara and Reeta Pöyhtäri, “Viha vallassa : Vihapuheen vaikutukset yhteiskunnalliseen päätöksentekoon,” <em>Valtioneuvoston kanslia</em>
+no. 2019:57 (2019) </p>
+            </div>
+            <div class="project-categories">
+                    <div class="project-category"><a href="#category=Finnish">
+                            Finnish
+                        </a></div>
+                    <div class="project-category"><a href="#category=Hate speech">
+                            Hate speech
+                        </a></div>
+            </div>
+            <div class="project-details-listing">
+                <ul class="project-links">
+                    <li class="project-link details">
+                        <a href="../research/articles/knuutila-2019/index.html" class="listing-name">
+                            <i class="fa-solid fa-circle-info"></i> Full details »
+                        </a>
+                    </li>
+                    <li class="project-link">
+                        <a href="http://urn.fi/URN:ISBN:978-952-287-786-4">
+                            <i class="fa-solid fa-scroll"></i> Final version
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li class="project" data-index="18" data-categories="Finnish,Hate speech" data-listing-date-sort="1546293600000" data-listing-file-modified-sort="1695818880307" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+            <div class="project-content listing-pub-info">
+                <p>Tuija Saresma, Heidi Kosonen and <strong>Aleksi Knuutila</strong>, “Vihapuhe : demokratian uhka, rangaistava teko vai melua tyhjästä?,” <em>Haaste</em> 19, no. 3 (2019) </p>
+            </div>
+            <div class="project-categories">
+                    <div class="project-category"><a href="#category=Finnish">
+                            Finnish
+                        </a></div>
+                    <div class="project-category"><a href="#category=Hate speech">
+                            Hate speech
+                        </a></div>
+            </div>
+            <div class="project-details-listing">
+                <ul class="project-links">
+                    <li class="project-link details">
+                        <a href="../research/articles/saresma-2019/index.html" class="listing-name">
+                            <i class="fa-solid fa-circle-info"></i> Full details »
+                        </a>
+                    </li>
+                    <li class="project-link">
+                        <a href="https://rikoksentorjunta.fi/documents/5235988/56402368/2019-3_Haaste.pdf/02dd0d6a-a6c9-2675-d1ec-e6135d8deb47/2019-3_Haaste.pdf?t=1617029404359">
+                            <i class="fa-solid fa-scroll"></i> Final version
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li class="project" data-index="19" data-categories="Data infrastructure,Finnish" data-listing-date-sort="1504213200000" data-listing-file-modified-sort="1695818880268" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+            <div class="project-content listing-pub-info">
+                <p><strong>Aleksi Knuutila</strong>, Vesa Kokkonen, Heikki Sundquist, Ossi Kuittinen and Salla Thure, “MyData muutosvoimana: Julkishallinnon henkilötiedon ihmiskeskeisen hyödyntämisen mallit ja vaikutukset,” <em>Valtioneuvoston kanslia</em>
+no. 2017:43 (2017) </p>
+            </div>
+            <div class="project-categories">
+                    <div class="project-category"><a href="#category=Data infrastructure">
+                            Data infrastructure
+                        </a></div>
+                    <div class="project-category"><a href="#category=Finnish">
+                            Finnish
+                        </a></div>
+            </div>
+            <div class="project-details-listing">
+                <ul class="project-links">
+                    <li class="project-link details">
+                        <a href="../research/articles/knuutila-2017/index.html" class="listing-name">
+                            <i class="fa-solid fa-circle-info"></i> Full details »
+                        </a>
+                    </li>
+                    <li class="project-link">
+                        <a href="http://urn.fi/URN:ISBN:978-952-287-446-7">
+                            <i class="fa-solid fa-scroll"></i> Final version
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li>
 </ul>
 </div>
 <div class="listing-no-matching d-none">
@@ -482,7 +1097,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-center">
       &nbsp;
     </div>
-    <div class="nav-footer-right"><span class="faux-block">Made with <a href="https://quarto.org/">Quarto</a></span> <span class="faux-block"><a href="https://github.com/andrewheiss/ath-quarto">View the source at <i class="fa-brands fa-github" aria-label="github"></i> GitHub</a></span></div>
+    <div class="nav-footer-right"><span class="faux-block">Made with <a href="https://quarto.org/">Quarto</a></span> <span class="faux-block"><a href="https://github.com/AleksiKnuutila/personal-quarto-site">View the source at <i class="fa-brands fa-github" aria-label="github"></i> GitHub</a></span></div>
   </div>
 </footer>
 
