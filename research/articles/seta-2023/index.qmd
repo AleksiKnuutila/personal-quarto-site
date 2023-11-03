@@ -1,70 +1,66 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
-title: 'Synthetic Ethnography: Field Devices for the Qualitative Study of Generative
-  Models'
-subtitle: ''
-summary: ''
-author:
+title: 'Synthetic ethnography: Field devices for the qualitative study of generative models'
+author: 
 - Gabriele de Seta
 - Matti Pohjonen
 - Aleksi Knuutila
-tags:
-- Anthropology
-- artificial intelligence
-- ethnography
-- generative models
-- machine learning
-- methodology
-- Other Anthropology
-- qualitative research
-- Social and Behavioral Sciences
-- synthetic media
-categories: []
+
 date: '2023-07-01'
-lastmod: 2023-09-15T15:30:15+03:00
-featured: false
-draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-#image:
-#  caption: ''
-#  focal_point: ''
-#  preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
-publishDate: '2023-09-15T12:30:15.024541Z'
-publication_types:
-- '0'
-publication: '*SocArXiv*'
-doi: 10.31235/osf.io/zvew4
+publisher: 'SocArXiv'
+entry_type: 'misc'
+doi: '10.31235/osf.io/zvew4'
+publication: 'SocArXiv'
+categories:
+- Artificial intelligence
+- English
+- Ethnography
+- Generative models
+- Machine learning
 pub-info:
-  reference: >-
-    <a href="https://lifesciences.byu.edu/directory/steven-peck">Steven L. Peck</a> and <strong>Andrew Heiss</strong>, “Can Constraint Closure Provide a Generalized Understanding of Community Dynamics in Ecosystems?” <em>Oikos</em> 130, no. 9 (September 2021): 1425–1439, doi: <a href="https://doi.org/10.1111/oik.07621"><code>10.1111/oik.07621</code></a>
+  reference: 'Gabriele de Seta, Matti Pohjonen and <strong>Aleksi Knuutila</strong>, “Synthetic ethnography: Field devices for the qualitative study of generative models,” <em>SocArXiv</em>
+    
+     (2023)
+    , doi: <a href="https://doi.org/10.31235/osf.io/zvew4"><code>10.31235/osf.io/zvew4</code></a>'
   links:
-  - name: Preprint
-    url: peck-heiss-constraint-closure.pdf
-    icon: fa-solid fa-file-pdf
-    local: true
-  - name: Final version
-    url: https://doi.org/10.1111/oik.07621
-    icon: fa-solid fa-scroll
-  - name: Code
-    url: https://github.com/andrewheiss/constraint-closure/
-    icon: fa-brands fa-github
-  - name: Add to Zotero
-    url: https://www.zotero.org/save?type=doi&q=10.1111/oik.07621
-    icon: ai ai-zotero
+    - name: Final version
+      url: https://doi.org/10.31235/osf.io/zvew4
+      icon: fa-solid fa-scroll
+    
+    - name: Add to Zotero
+      url: https://www.zotero.org/save?type=doi&q=10.31235/osf.io/zvew4
+      icon: ai ai-zotero
+    
 ---
 
 
-# Abstract
+
+## Abstract
 
 The development of generative artificial intelligence sustains a proliferation of machine learning models capable of synthesizing text, images, sounds, and other kinds of content. While the increasing realism of synthetic content stokes fears about misinformation and triggers debates around intellectual property, generative models are adopted across creative industries, and synthetic media is already becoming an integral component of cultural products. Qualitative research in the social and human sciences has dedicated comparatively little attention to this category of machine learning, particularly in terms of what types of novel research methodology they both demand and facilitate. In this article, we propose a methodological approach for the qualitative study of generative models grounded on the experimentation with field devices which we call synthetic ethnography. Synthetic ethnography is not simply a qualitative research methodology applied to the study of the social and cultural contexts developing around generative models, but also strives to envision practical and experimental ways to repurpose these technologies as research tools in their own right. After briefly introducing generative models and synthetic media and revisiting the trajectory of digital ethnographic research, we discuss three case studies for which the authors have developed experimental field devices to study different generative AI ethnographically. In the conclusion, we derive a broader methodological proposal from these case studies, arguing that synthetic ethnography facilitates insights into how the algorithmic processes, training datasets and latent spaces behind these systems modulate bias, reconfigure agency, and challenge epistemological categories.
+
+
+
+## Citation
+
+
+
+<p class="buttons" style="text-align:center;">
+<a class="btn btn-danger" target="_blank" href="https://www.zotero.org/save?type=doi&q=10.31235/osf.io/zvew4">{{< ai zotero >}}&emsp;Add to Zotero {{< fa square-arrow-up-right >}}</a>
+</p>
+
+
+
+```bibtex
+@misc{Seta2023,
+ author = {de Seta, Gabriele and Pohjonen, Matti and Knuutila, Aleksi},
+ doi = {10.31235/osf.io/zvew4},
+ month = {July},
+ publisher = {SocArXiv},
+ shorttitle = {Synthetic ethnography},
+ title = {Synthetic ethnography: Field devices for the qualitative study of generative models},
+ url = {https://osf.io/preprints/socarxiv/zvew4/},
+ urldate = {2023-09-14},
+ year = {2023}
+}
+
+```

@@ -1,0 +1,70 @@
+---
+title: 'A Dataset of COVID-Related Misinformation Videos and their Spread on Social Media'
+author: 
+- Aleksi Knuutila
+- Aliaksandr Herasimenko
+- Hubert Au
+- Jonathan Bright
+- Philip N. Howard
+
+date: '2021-06-01'
+publisher: 'Ubiquity Press'
+entry_type: 'article'
+doi: '10.5334/johd.24'
+publication: 'Journal of Open Humanities Data'
+categories:
+- English
+- Misinformation
+pub-info:
+  reference: '<strong>Aleksi Knuutila</strong>, Aliaksandr Herasimenko, Hubert Au, Jonathan Bright and Philip N. Howard, “A Dataset of COVID-Related Misinformation Videos and their Spread on Social Media,” <em>Journal of Open Humanities Data</em>
+    7, 
+    no. 0 (2021): pp. 6
+    , doi: <a href="https://doi.org/10.5334/johd.24"><code>10.5334/johd.24</code></a>'
+  links:
+    - name: Final version
+      url: https://doi.org/10.5334/johd.24
+      icon: fa-solid fa-scroll
+    
+    - name: Add to Zotero
+      url: https://www.zotero.org/save?type=doi&q=10.5334/johd.24
+      icon: ai ai-zotero
+    
+---
+
+
+
+## Abstract
+
+This dataset contains metadata about all COVID-related YouTube videos which circulated on public social media, but which YouTube eventually removed because they contained false information. It describes 8,122 videos that were shared between November 2019 and June 2020. The dataset contains unique identifiers for the videos and social media accounts that shared the videos, statistics on social media engagement and metadata such as video titles and view counts where they were recoverable. The dataset has reuse potential for research studying narratives related to the coronavirus, the impact of social media on knowledge about health and the politics of social media platforms.
+
+
+
+## Citation
+
+
+
+<p class="buttons" style="text-align:center;">
+<a class="btn btn-danger" target="_blank" href="https://www.zotero.org/save?type=doi&q=10.5334/johd.24">{{< ai zotero >}}&emsp;Add to Zotero {{< fa square-arrow-up-right >}}</a>
+</p>
+
+
+
+```bibtex
+@article{Knuutila2021,
+ author = {Knuutila, Aleksi and Herasimenko, Aliaksandr and Au, Hubert and Bright, Jonathan and Howard, Philip N.},
+ copyright = {Authors who publish with this journal agree to the following terms:    Authors retain copyright and grant the journal right of first publication with the work simultaneously licensed under a  Creative Commons Attribution License  that allows others to share the work with an acknowledgement of the work's authorship and initial publication in this journal.  Authors are able to enter into separate, additional contractual arrangements for the non-exclusive distribution of the journal's published version of the work (e.g., post it to an institutional repository or publish it in a book), with an acknowledgement of its initial publication in this journal.  Authors are permitted and encouraged to post their work online (e.g., in institutional repositories or on their website) prior to and during the submission process, as it can lead to productive exchanges, as well as earlier and greater citation of published work (See  The Effect of Open Access ).  All third-party images reproduced on this journal are shared under Educational Fair Use. For more information on  Educational Fair Use , please see  this useful checklist prepared by Columbia University Libraries .   All copyright  of third-party content posted here for research purposes belongs to its original owners.  Unless otherwise stated all references to characters and comic art presented on this journal are ©, ® or ™ of their respective owners. No challenge to any owner’s rights is intended or should be inferred.},
+ doi = {10.5334/johd.24},
+ issn = {2059-481X},
+ journal = {Journal of Open Humanities Data},
+ month = {June},
+ number = {0},
+ pages = {6},
+ publisher = {Ubiquity Press},
+ title = {A Dataset of COVID-Related Misinformation Videos and their Spread on Social Media},
+ url = {http://openhumanitiesdata.metajnl.com/articles/10.5334/johd.24/},
+ urldate = {2022-11-25},
+ volume = {7},
+ year = {2021}
+}
+
+```

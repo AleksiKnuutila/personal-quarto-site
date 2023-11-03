@@ -1,0 +1,57 @@
+---
+title: 'MyData muutosvoimana: Julkishallinnon henkilötiedon ihmiskeskeisen hyödyntämisen mallit ja vaikutukset'
+author: 
+- Aleksi Knuutila
+- Vesa Kokkonen
+- Heikki Sundquist
+- Ossi Kuittinen
+- Salla Thure
+
+date: '2017-09-01'
+publisher: 'Valtioneuvoston kanslia'
+entry_type: 'book'
+publication: 'Valtioneuvoston kanslia'
+categories:
+- Data infrastructure
+- Finnish
+pub-info:
+  reference: '<strong>Aleksi Knuutila</strong>, Vesa Kokkonen, Heikki Sundquist, Ossi Kuittinen and Salla Thure, “MyData muutosvoimana: Julkishallinnon henkilötiedon ihmiskeskeisen hyödyntämisen mallit ja vaikutukset,” <em>Valtioneuvoston kanslia</em>
+    
+    no. 2017:43 (2017)
+    '
+  links:
+    - name: Final version
+      url: http://urn.fi/URN:ISBN:978-952-287-446-7
+      icon: fa-solid fa-scroll
+    
+---
+
+
+
+## Abstract
+
+Valtio sekä kunnat ylläpitävät tehtäviään varten henkilötietorekistereitä, joista monet ovat sisällöltään ainutlaatuisia ja monikäyttöisiä. Joillakin hallinnonaloilla henkilöitä koskevan tiedon hyödyntämiseen liittyvät säännöt ovat sallivia, mutta henkilötiedon käyttöä rajaavat laissa määritellyt käyttötarkoitukset sekä tarvittaviin lupiin liittyvät monimutkaiset käytännöt. MyData-periaatteet kuvaavat ajatusta, että ihmisillä on määräysvaltaa heitä koskevaan tietoon. Niihin liittyy toimintamalli, jossa ihmisille tarjotaan käytännön keinoja hallita omien tietojensa käyttöä ja jakaa tietojaan eri palveluihin antamiensa lupien perusteella. Tällaiset keinot hyödyntää tietoa voisivat pienentää uusien palveluiden kehityskustannuksia ja tukea nopeiden kokeilujen tekemistä sekä yksityisellä että julkisella sektorilla. Samalla ne vahvistaisivat julkisten palveluiden ymmärrettävyyttä ja yksilöiden oikeuksia omaan tietoonsa. MyData-periaatteet voidaan toteuttaa useammalla erilaisella tavalla. Raportissa vaihtoehtoja jäsennetään luokittelulla, joka sisältää viisi eri vaatimustasoa, sekä käytännön ratkaisuilla näiden saavuttamiseen. Selvityksessä ehdotetaan, että alustoja ja työkaluja tuotettaisiin niin, että rekisterinpitäjät voisivat valita tilanteeseensa sopivat keinot tehdä henkilötieto saatavaksi. Julkishallinnon tulisi pyrkiä myös synnyttämään luottamusta ja helpottamaan yksilöiden sekä palveluntarjoajien kanssakäymistä, esimerkiksi yleisillä malleilla käyttöehdoille sekä yhteisillä ymmärrettävillä keinoilla kuvata henkilötiedon käytön tapoja. Raportissa kuvataan MyData-periaatteiden soveltamisen vaikutuksia julkishallintoon ja muihin sidosryhmiin kolmen tapaustutkimuksen kautta. Tiedon parempi saatavuus mahdollistaa yksilöityjä palveluita ja uudenlaisia sovelluksia, muun muassa ennaltaehkäisevän terveydenhuollon saralla
+
+
+
+## Citation
+
+
+
+```bibtex
+@book{Knuutila2017,
+ author = {Knuutila, Aleksi and Kokkonen, Vesa and Sundquist, Heikki and Kuittinen, Ossi and Thure, Salla},
+ copyright = {This publication is copyrighted. You may download, display and print it for Your own personal use. Commercial use is prohibited.},
+ isbn = {978-952-287-446-7},
+ month = {September},
+ number = {2017:43},
+ publisher = {Valtioneuvoston kanslia},
+ series = {Valtioneuvoston selvitys- ja tutkimustoiminnan julkaisusarja},
+ shorttitle = {MyData muutosvoimana},
+ title = {MyData muutosvoimana: Julkishallinnon henkilötiedon ihmiskeskeisen hyödyntämisen mallit ja vaikutukset},
+ url = {http://urn.fi/URN:ISBN:978-952-287-446-7},
+ urldate = {2022-11-25},
+ year = {2017}
+}
+
+```

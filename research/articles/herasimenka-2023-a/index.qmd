@@ -1,0 +1,70 @@
+---
+title: 'The political economy of digital profiteering: communication resource mobilization by anti-vaccination actors'
+author: 
+- Aliaksandr Herasimenka
+- Yung Au
+- Anna George
+- Kate Joynes-Burgess
+- Aleksi Knuutila
+- Jonathan Bright
+- Philip N Howard
+
+date: '2023-04-01'
+entry_type: 'article'
+doi: '10.1093/joc/jqac043'
+publication: 'Journal of Communication'
+categories:
+- English
+- Misinformation
+pub-info:
+  reference: 'Aliaksandr Herasimenka, Yung Au, Anna George, Kate Joynes-Burgess, <strong>Aleksi Knuutila</strong>, Jonathan Bright and Philip N Howard, “The political economy of digital profiteering: communication resource mobilization by anti-vaccination actors,” <em>Journal of Communication</em>
+    73, 
+    no. 2 (2023): pp. 126&ndash;137
+    , doi: <a href="https://doi.org/10.1093/joc/jqac043"><code>10.1093/joc/jqac043</code></a>'
+  links:
+    - name: Final version
+      url: https://doi.org/10.1093/joc/jqac043
+      icon: fa-solid fa-scroll
+    
+    - name: Add to Zotero
+      url: https://www.zotero.org/save?type=doi&q=10.1093/joc/jqac043
+      icon: ai ai-zotero
+    
+---
+
+
+
+## Abstract
+
+Contemporary communication requires both a supply of content and a digital information infrastructure. Modern campaigns of misinformation are especially dependent on that back-end infrastructure for tracking and targeting a sympathetic audience and generating revenue that can sustain the campaign financially—if not enable profiteering. However, little is known about the political economy of misinformation, particularly those campaigns spreading misleading or harmful content about public health guidelines and vaccination programs. To understand the political economy of health misinformation, we analyze the content and infrastructure networks of 59 groups involved in communicating misinformation about vaccination programs. With a unique collection of tracker and communication infrastructure data, we demonstrate how the political economy of misinformation depends on platform monetization infrastructures. We offer a theory of communication resource mobilization that advances understanding of the communicative context, organizational interactions, and political outcomes of misinformation production.
+
+
+
+## Citation
+
+
+
+<p class="buttons" style="text-align:center;">
+<a class="btn btn-danger" target="_blank" href="https://www.zotero.org/save?type=doi&q=10.1093/joc/jqac043">{{< ai zotero >}}&emsp;Add to Zotero {{< fa square-arrow-up-right >}}</a>
+</p>
+
+
+
+```bibtex
+@article{Herasimenka2023a,
+ author = {Herasimenka, Aliaksandr and Au, Yung and George, Anna and Joynes-Burgess, Kate and Knuutila, Aleksi and Bright, Jonathan and Howard, Philip N},
+ doi = {10.1093/joc/jqac043},
+ issn = {0021-9916},
+ journal = {Journal of Communication},
+ month = {April},
+ number = {2},
+ pages = {126--137},
+ shorttitle = {The political economy of digital profiteering},
+ title = {The political economy of digital profiteering: communication resource mobilization by anti-vaccination actors},
+ url = {https://doi.org/10.1093/joc/jqac043},
+ urldate = {2023-09-14},
+ volume = {73},
+ year = {2023}
+}
+
+```

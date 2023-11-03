@@ -1,0 +1,48 @@
+---
+title: 'Poliittisten toimijoiden kokema vihapuhe sukupuolittuneena poliittisena väkivaltana'
+author: 
+- Tuija Saresma
+- "Reeta P\xF6yht\xE4ri"
+- Heidi Kosonen
+- Paula Haara
+- Aleksi Knuutila
+
+date: '2020-01-01'
+entry_type: 'article'
+publication: 'Sukupuolentutkimus'
+categories:
+- Finnish
+- Hate speech
+pub-info:
+  reference: 'Tuija Saresma, Reeta Pöyhtäri, Heidi Kosonen, Paula Haara and <strong>Aleksi Knuutila</strong>, “Poliittisten toimijoiden kokema vihapuhe sukupuolittuneena poliittisena väkivaltana,” <em>Sukupuolentutkimus</em>
+    33, 
+    no. 4 (2020): pp. 18&ndash;38
+    '
+  links:
+    - name: Final version
+      url: https://researchportal.tuni.fi/en/publications/poliittisten-toimijoiden-kokema-vihapuhe-sukupuolittuneena-poliit
+      icon: fa-solid fa-scroll
+    
+---
+
+
+
+## Citation
+
+
+
+```bibtex
+@article{Saresma2020,
+ author = {Saresma, Tuija and Pöyhtäri, Reeta and Kosonen, Heidi and Haara, Paula and Knuutila, Aleksi},
+ issn = {2342-0634},
+ journal = {Sukupuolentutkimus},
+ number = {4},
+ pages = {18--38},
+ title = {Poliittisten toimijoiden kokema vihapuhe sukupuolittuneena poliittisena väkivaltana},
+ url = {https://researchportal.tuni.fi/en/publications/poliittisten-toimijoiden-kokema-vihapuhe-sukupuolittuneena-poliit},
+ urldate = {2022-11-25},
+ volume = {33},
+ year = {2020}
+}
+
+```

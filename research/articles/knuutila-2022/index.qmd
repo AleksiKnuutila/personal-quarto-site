@@ -1,0 +1,62 @@
+---
+title: 'Who is afraid of fake news? Modeling risk perceptions of misinformation in 142 countries'
+author: 
+- Aleksi Knuutila
+- Lisa-Maria Neudert
+- Philip N. Howard
+
+date: '2022-04-01'
+entry_type: 'article'
+doi: '10.37016/mr-2020-97'
+publication: 'Harvard Kennedy School Misinformation Review'
+categories:
+- English
+- Misinformation
+pub-info:
+  reference: '<strong>Aleksi Knuutila</strong>, Lisa-Maria Neudert and Philip N. Howard, “Who is afraid of fake news? Modeling risk perceptions of misinformation in 142 countries,” <em>Harvard Kennedy School Misinformation Review</em>
+    
+     (2022)
+    , doi: <a href="https://doi.org/10.37016/mr-2020-97"><code>10.37016/mr-2020-97</code></a>'
+  links:
+    - name: Final version
+      url: https://doi.org/10.37016/mr-2020-97
+      icon: fa-solid fa-scroll
+    
+    - name: Add to Zotero
+      url: https://www.zotero.org/save?type=doi&q=10.37016/mr-2020-97
+      icon: ai ai-zotero
+    
+---
+
+
+
+## Abstract
+
+Using survey data from 154,195 respondents in 142 countries, we investigate internet user perceptions of the risks associated with being exposed to misinformation. We find that: 1) The majority of regular internet users globally (58.5%) worry about misinformation, and young and low-income groups are most likely to be concerned. 2) Risk perception among internet users varies starkly across regions whereby concern is highest in Latin America and the Caribbean (74.2%), and lowest in South Asia (31.2%). 3) Differences are unrelated to the prevalence of misinformation, yet concern is highest in countries with liberal democratic governments. We discuss implications for successful policy and platform interventions.
+
+
+
+## Citation
+
+
+
+<p class="buttons" style="text-align:center;">
+<a class="btn btn-danger" target="_blank" href="https://www.zotero.org/save?type=doi&q=10.37016/mr-2020-97">{{< ai zotero >}}&emsp;Add to Zotero {{< fa square-arrow-up-right >}}</a>
+</p>
+
+
+
+```bibtex
+@article{Knuutila2022,
+ author = {Knuutila, Aleksi and Neudert, Lisa-Maria and Howard, Philip N.},
+ doi = {10.37016/mr-2020-97},
+ journal = {Harvard Kennedy School Misinformation Review},
+ month = {April},
+ shorttitle = {Who is afraid of fake news?},
+ title = {Who is afraid of fake news? Modeling risk perceptions of misinformation in 142 countries},
+ url = {https://misinforeview.hks.harvard.edu/?p=9181},
+ urldate = {2022-11-25},
+ year = {2022}
+}
+
+```

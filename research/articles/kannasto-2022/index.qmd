@@ -1,0 +1,43 @@
+---
+title: 'I 🌹🍀 You! - Emojis as Emotional-Political Signifiers in Finnish Election Campaign Discussion Online'
+author: 
+- Elisa Kannasto
+- Salla-Maaria Laaksonen
+- Aleksi Knuutila
+
+date: '2022-01-01'
+publisher: 'Hawaii International Conference on System Sciences'
+entry_type: 'article'
+publication: 'Proceedings of the 56th Hawaii International Conference on System Sciences'
+categories:
+- English
+- Political communication
+pub-info:
+  reference: 'Elisa Kannasto, Salla-Maaria Laaksonen and <strong>Aleksi Knuutila</strong>, “I 🌹🍀 You! - Emojis as Emotional-Political Signifiers in Finnish Election Campaign Discussion Online,” <em>Proceedings of the 56th Hawaii International Conference on System Sciences</em>
+    
+     (2022)
+    '
+  links:
+    - name: Final version
+      url: https://hdl.handle.net/10125/102925
+      icon: fa-solid fa-scroll
+    
+---
+
+
+
+## Citation
+
+
+
+```bibtex
+@article{Kannasto2022,
+ author = {Kannasto, Elisa and Laaksonen, Salla-Maaria and Knuutila, Aleksi},
+ journal = {Proceedings of the 56th Hawaii International Conference on System Sciences},
+ publisher = {Hawaii International Conference on System Sciences},
+ title = {I 🌹🍀 You! - Emojis as Emotional-Political Signifiers in Finnish Election Campaign Discussion Online},
+ url = {https://hdl.handle.net/10125/102925},
+ year = {2022}
+}
+
+```

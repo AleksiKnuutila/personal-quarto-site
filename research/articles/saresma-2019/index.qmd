@@ -1,0 +1,52 @@
+---
+title: 'Vihapuhe : demokratian uhka, rangaistava teko vai melua tyhjästä?'
+author: 
+- Tuija Saresma
+- Heidi Kosonen
+- Aleksi Knuutila
+
+date: '2019-01-01'
+entry_type: 'article'
+publication: 'Haaste'
+categories:
+- Finnish
+- Hate speech
+pub-info:
+  reference: 'Tuija Saresma, Heidi Kosonen and <strong>Aleksi Knuutila</strong>, “Vihapuhe : demokratian uhka, rangaistava teko vai melua tyhjästä?,” <em>Haaste</em>
+    19, 
+    no. 3 (2019)
+    '
+  links:
+    - name: Final version
+      url: https://rikoksentorjunta.fi/documents/5235988/56402368/2019-3_Haaste.pdf/02dd0d6a-a6c9-2675-d1ec-e6135d8deb47/2019-3_Haaste.pdf?t=1617029404359
+      icon: fa-solid fa-scroll
+    
+---
+
+
+
+## Abstract
+
+nonPeerReviewed
+
+
+
+## Citation
+
+
+
+```bibtex
+@article{Saresma2019,
+ author = {Saresma, Tuija and Kosonen, Heidi and Knuutila, Aleksi},
+ copyright = {In Copyright},
+ journal = {Haaste},
+ number = {3},
+ shorttitle = {Vihapuhe},
+ title = {Vihapuhe : demokratian uhka, rangaistava teko vai melua tyhjästä?},
+ url = {https://rikoksentorjunta.fi/documents/5235988/56402368/2019-3_Haaste.pdf/02dd0d6a-a6c9-2675-d1ec-e6135d8deb47/2019-3_Haaste.pdf?t=1617029404359},
+ urldate = {2022-11-25},
+ volume = {19},
+ year = {2019}
+}
+
+```

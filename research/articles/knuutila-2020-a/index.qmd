@@ -1,0 +1,50 @@
+---
+title: 'Global Fears of Disinformation: Perceived Internet and Social Media Harms in 142 Countries'
+author: 
+- Aleksi Knuutila
+- Lisa-Maria Neudert
+- Philip N Howard
+
+date: '2020-01-01'
+publisher: 'COMPROP Data Memo'
+entry_type: 'book'
+publication: 'COMPROP Data Memo'
+categories:
+- English
+- Misinformation
+pub-info:
+  reference: '<strong>Aleksi Knuutila</strong>, Lisa-Maria Neudert and Philip N Howard, “Global Fears of Disinformation: Perceived Internet and Social Media Harms in 142 Countries,” <em>COMPROP Data Memo</em>
+    
+    no. 2020.8 (2020)
+    '
+  links:
+    - name: Final version
+      url: https://demtech.oii.ox.ac.uk/research/posts/global-fears-of-disinformation-perceived-internet-and-social-media-harms-in-142-countries/
+      icon: fa-solid fa-scroll
+    
+---
+
+
+
+## Abstract
+
+Internet disinformation, fraud and harassment have emerged as global concerns. While governments, industry, and civil society groups around the world struggle to address these concerns, there is little comparative data on public perception of the risks associated with using social media and the internet. In this memo, we analyze survey data of 154,195 participants living in 142 countries. On average, people rarely identify technology-related risks as the most prominent threats to their quality of life. But they feature prominently for a significant proportion of the global population and, naturally, feature very prominently for respondents who regularly use social media and the internet. First, we find that globally, disinformation is the single most important fear of internet and social media use and more than half (53%) of regular internet users are concerned about disinformation. Second, almost three quarters (71%) of internet users are worried about a mixture of threats, including online disinformation, fraud and harassment. Third, there is interesting variation in how concerned people are with particular internet harms: worry about the impact of disinformation is highest in North America and Europe, and lowest in East and South Asia; concern about online harassment is higher among women, and especially so among women in Latin America.
+
+
+
+## Citation
+
+
+
+```bibtex
+@book{Knuutila2020a,
+ author = {Knuutila, Aleksi and Neudert, Lisa-Maria and Howard, Philip N},
+ number = {2020.8},
+ publisher = {COMPROP Data Memo},
+ series = {COMPROP Data Memo},
+ title = {Global Fears of Disinformation: Perceived Internet and Social Media Harms in 142 Countries},
+ url = {https://demtech.oii.ox.ac.uk/research/posts/global-fears-of-disinformation-perceived-internet-and-social-media-harms-in-142-countries/},
+ year = {2020}
+}
+
+```

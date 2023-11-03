@@ -11,12 +11,12 @@ title-block-banner: "#170C3A"
 format: 
   html:
     code-tools: true
-    comments:
-      giscus: 
-        repo: andrewheiss/ath-quarto
-        category: Blog comments
-        category-id: DIC_kwDOIg6EJc4CSz92
-        mapping: pathname
+#    comments:
+#      giscus: 
+#        repo: andrewheiss/ath-quarto
+#        category: Blog comments
+#        category-id: DIC_kwDOIg6EJc4CSz92
+#        mapping: pathname
     quarto-template-params:
       banner-header-class: "blog-post"
 
@@ -35,6 +35,6 @@ execute:
 
 # Default author
 author:
-  - name: Andrew Heiss
-    url: https://www.andrewheiss.com/
-    orcid: 0000-0002-3948-3914
+  - name: Aleksi Knuutila
+    url: https://knuutila.net/
+    orcid: 0000-0002-9874-0079

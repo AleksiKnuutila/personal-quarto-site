@@ -1,0 +1,43 @@
+---
+title: 'Global Attitudes Towards AI, Machine Learning & Automated Decision Making'
+author: 
+- Lisa-Maria Neudert
+- Aleksi Knuutila
+- Philip N Howard
+
+date: '2020-01-01'
+publisher: 'Oxford Commission on AI & Good Governance'
+entry_type: 'book'
+publication: 'Oxford Commission on AI & Good Governance'
+categories:
+- Artificial intelligence
+- English
+pub-info:
+  reference: 'Lisa-Maria Neudert, <strong>Aleksi Knuutila</strong> and Philip N Howard, “Global Attitudes Towards AI, Machine Learning & Automated Decision Making,” <em>Oxford Commission on AI & Good Governance</em>
+    
+    no. Working paper 2020.10 (2020)
+    '
+  links:
+    - name: Final version
+      url: 
+      icon: fa-solid fa-scroll
+    
+---
+
+
+
+## Citation
+
+
+
+```bibtex
+@book{Neudert2020,
+ author = {Neudert, Lisa-Maria and Knuutila, Aleksi and Howard, Philip N},
+ number = {Working paper 2020.10},
+ publisher = {Oxford Commission on AI & Good Governance},
+ series = {Oxford Commission on AI & Good Governance},
+ title = {Global Attitudes Towards AI, Machine Learning & Automated Decision Making},
+ year = {2020}
+}
+
+```

@@ -1,0 +1,71 @@
+---
+title: 'Misinformation and professional news on largely unmoderated platforms: the case of telegram'
+author: 
+- Aliaksandr Herasimenka
+- Jonathan Bright
+- Aleksi Knuutila
+- Philip N. Howard
+
+date: '2023-04-01'
+publisher: 'Routledge'
+entry_type: 'article'
+doi: '10.1080/19331681.2022.2076272'
+publication: 'Journal of Information Technology & Politics'
+categories:
+- English
+- Misinformation
+- News media
+- Telegram
+pub-info:
+  reference: 'Aliaksandr Herasimenka, Jonathan Bright, <strong>Aleksi Knuutila</strong> and Philip N. Howard, “Misinformation and professional news on largely unmoderated platforms: the case of telegram,” <em>Journal of Information Technology & Politics</em>
+    20, 
+    no. 2 (2023): pp. 198&ndash;212
+    , doi: <a href="https://doi.org/10.1080/19331681.2022.2076272"><code>10.1080/19331681.2022.2076272</code></a>'
+  links:
+    - name: Final version
+      url: https://doi.org/10.1080/19331681.2022.2076272
+      icon: fa-solid fa-scroll
+    
+    - name: Add to Zotero
+      url: https://www.zotero.org/save?type=doi&q=10.1080/19331681.2022.2076272
+      icon: ai ai-zotero
+    
+---
+
+
+
+## Abstract
+
+To date, there is little research to measure the scale of misinformation and understand how it spreads on largely unmoderated platforms. Our analysis of 200,000 Telegram posts demonstrates that links to known sources of misleading information are shared more often than links to professional news content, but the former stays confined to relatively few channels. We conclude that, contrary to popular received wisdom, the audience for misinformation is not a general one, but a small and active community of users. Our study strengthens an empirical consensus regarding the spread of misinformation and expands it for the case of Telegram.
+
+
+
+## Citation
+
+
+
+<p class="buttons" style="text-align:center;">
+<a class="btn btn-danger" target="_blank" href="https://www.zotero.org/save?type=doi&q=10.1080/19331681.2022.2076272">{{< ai zotero >}}&emsp;Add to Zotero {{< fa square-arrow-up-right >}}</a>
+</p>
+
+
+
+```bibtex
+@article{Herasimenka2023,
+ author = {Herasimenka, Aliaksandr and Bright, Jonathan and Knuutila, Aleksi and Howard, Philip N.},
+ doi = {10.1080/19331681.2022.2076272},
+ issn = {1933-1681},
+ journal = {Journal of Information Technology & Politics},
+ month = {April},
+ number = {2},
+ pages = {198--212},
+ publisher = {Routledge},
+ shorttitle = {Misinformation and professional news on largely unmoderated platforms},
+ title = {Misinformation and professional news on largely unmoderated platforms: the case of telegram},
+ url = {https://doi.org/10.1080/19331681.2022.2076272},
+ urldate = {2023-05-16},
+ volume = {20},
+ year = {2023}
+}
+
+```

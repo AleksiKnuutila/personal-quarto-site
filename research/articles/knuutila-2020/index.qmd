@@ -1,0 +1,49 @@
+---
+title: 'Viraali vihaisuus ja tahmea nauru: tunteet ja algoritmit digitaalisessa vaalikampanjoinnissa'
+author: 
+- Aleksi Knuutila
+- Salla-Maaria Laaksonen
+
+date: '2020-09-01'
+publisher: 'Oikeusministeriö'
+entry_type: 'incollection'
+publication: 'Politiikan ilmastonmuutos'
+categories:
+- Finnish
+- Political communication
+pub-info:
+  reference: '<strong>Aleksi Knuutila</strong> and Salla-Maaria Laaksonen, “Viraali vihaisuus ja tahmea nauru: tunteet ja algoritmit digitaalisessa vaalikampanjoinnissa,” <em>Politiikan ilmastonmuutos</em>
+    
+     (2020): pp. 394&ndash;418. Oikeusministeriö.
+    '
+  links:
+    - name: Final version
+      url: http://urn.fi/URN:ISBN:978-952-259-838-7
+      icon: fa-solid fa-scroll
+    
+---
+
+
+
+## Citation
+
+
+
+```bibtex
+@incollection{Knuutila2020,
+ address = {Helsinki},
+ author = {Knuutila, Aleksi and Laaksonen, Salla-Maaria},
+ booktitle = {Politiikan ilmastonmuutos},
+ editor = {Borg, Sami and Kestilä-Kekkonen, Elina and Wass, Hanna},
+ isbn = {978-952-259-834-9},
+ month = {September},
+ pages = {394--418},
+ publisher = {Oikeusministeriö},
+ series = {Oikeusministeriön julkaisuja. Selvityksiä ja ohjeita},
+ shorttitle = {Viraali vihaisuus ja tahmea nauru},
+ title = {Viraali vihaisuus ja tahmea nauru: tunteet ja algoritmit digitaalisessa vaalikampanjoinnissa},
+ url = {http://urn.fi/URN:ISBN:978-952-259-838-7},
+ year = {2020}
+}
+
+```

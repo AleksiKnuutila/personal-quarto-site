@@ -1,0 +1,45 @@
+---
+title: 'MyData – an introduction to human-centric use of personal data'
+author: 
+- Antti Poikola
+- Kai Kuikkaniemi
+- Ossi Kuittinen
+- Harri Honko
+- Aleksi Knuutila
+- "Viivi L\xE4hteenoja"
+
+date: '2020-01-01'
+publisher: 'Ministry of Transport and Communications'
+entry_type: 'book'
+publication: 'Ministry of Transport and Communications'
+categories:
+- Data infrastructure
+- Finnish
+pub-info:
+  reference: 'Antti Poikola, Kai Kuikkaniemi, Ossi Kuittinen, Harri Honko, <strong>Aleksi Knuutila</strong> and Viivi Lähteenoja, “MyData – an introduction to human-centric use of personal data,” <em>Ministry of Transport and Communications</em>
+    
+     (2020)
+    '
+  links:
+    - name: Final version
+      url: 
+      icon: fa-solid fa-scroll
+    
+---
+
+
+
+## Citation
+
+
+
+```bibtex
+@book{Poikola2020,
+ author = {Poikola, Antti and Kuikkaniemi, Kai and Kuittinen, Ossi and Honko, Harri and Knuutila, Aleksi and Lähteenoja, Viivi},
+ edition = {3rd, revised edition},
+ publisher = {Ministry of Transport and Communications},
+ title = {MyData – an introduction to human-centric use of personal data},
+ year = {2020}
+}
+
+```

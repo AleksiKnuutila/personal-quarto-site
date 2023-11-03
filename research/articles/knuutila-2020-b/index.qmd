@@ -1,0 +1,47 @@
+---
+title: 'Covid-Related misinformation on Youtube: The spread of misinformation videos on social media and the effectiveness of platform policies'
+author: 
+- Aleksi Knuutila
+- Aliaksandr Herasimenka
+- Hubert Au
+- Jonathan Bright
+- Rasmus Nielsen
+- Philip N Howard
+
+date: '2020-01-01'
+publisher: 'COMPROP Data Memo'
+entry_type: 'book'
+publication: 'COMPROP Data Memo'
+categories:
+- English
+- Misinformation
+pub-info:
+  reference: '<strong>Aleksi Knuutila</strong>, Aliaksandr Herasimenka, Hubert Au, Jonathan Bright, Rasmus Nielsen and Philip N Howard, “Covid-Related misinformation on Youtube: The spread of misinformation videos on social media and the effectiveness of platform policies,” <em>COMPROP Data Memo</em>
+    
+    no. 2020.6 (2020)
+    '
+  links:
+    - name: Final version
+      url: https://demtech.oii.ox.ac.uk/research/posts/youtube-platform-policies/
+      icon: fa-solid fa-scroll
+    
+---
+
+
+
+## Citation
+
+
+
+```bibtex
+@book{Knuutila2020b,
+ author = {Knuutila, Aleksi and Herasimenka, Aliaksandr and Au, Hubert and Bright, Jonathan and Nielsen, Rasmus and Howard, Philip N},
+ number = {2020.6},
+ publisher = {COMPROP Data Memo},
+ series = {COMPROP Data Memo},
+ title = {Covid-Related misinformation on Youtube: The spread of misinformation videos on social media and the effectiveness of platform policies},
+ url = {https://demtech.oii.ox.ac.uk/research/posts/youtube-platform-policies/},
+ year = {2020}
+}
+
+```

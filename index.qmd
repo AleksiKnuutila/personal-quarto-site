@@ -1,8 +1,9 @@
 ---
-title: "Hello there!"
+title: "About me"
 pagetitle: "{{< meta website.title >}}"
-main-photo: /files/profiles/andrew-heiss-2022.jpg
+main-photo: /files/profiles/aleksi.jpg
 main-photo-square: /files/profiles/andrew-heiss-2022-square.jpg
+#title-block-banner: "#CF4446"
 title-block-banner: "#CF4446"
 format:
   html:
@@ -32,11 +33,17 @@ format:
 
 ::: {.g-col-12 .g-col-sm-8}
 
-I'm an assistant professor in the [Department of Public Management and Policy](https://aysps.gsu.edu/public-management-policy/) at the [Andrew Young School of Policy Studies](https://aysps.gsu.edu/) at [Georgia State University](https://www.gsu.edu/). I received a PhD in public policy and political science from Duke University's [Sanford School of Public Policy](http://sanford.duke.edu/) in 2017.
+I'm a senior researcher at the [Sociology department](https://www.helsinki.fi/en/faculty-social-sciences/research/disciplines-and-research-units/sociology) at the [University of Helsinki](https://www.helsinki.fi). I received a PhD from the Centre for Digital Anthropology at University College London in 2017.
 
-I study [how international NGOs work in authoritarian countries](https://www.ingoresearch.org/amicable-contempt/), and I received the 2016–2018 [Emerging Scholar Dissertation Award](https://www.istr.org/page/DissertationISTR) from the [International Society for Third Sector Research (ISTR)](https://www.istr.org/). I do research in public administration and policy, nonprofit management, international relations, and comparative politics.
+I study how people use digital media for political purposes and to understand current events. I also develop new methods for making sense of large, openly available datasets.
 
-I teach courses on [program evaluation and causal inference](https://evalf22.classes.andrewheiss.com/), [statistics and data science](https://statsf18.classes.andrewheiss.com/), [data visualization](https://datavizs22.classes.andrewheiss.com/), [economics](https://econs22.classes.andrewheiss.com/), and [science communication](https://storiesf17.classes.andrewheiss.com/). I'm also a [certified RStudio instructor](https://education.rstudio.com/trainers/people/heiss+andrew/) and a [Posit Academy mentor](https://posit.co/products/enterprise/academy/) and absolutely love teaching how to use [R](https://www.r-project.org/) and [the tidyverse](https://www.tidyverse.org/).
+I am currently working on the following topics:
+
+- How images from conflicts are translated into evidence and are included in reporting ([project page](https://researchportal.helsinki.fi/en/projects/eyewitness-images-and-networked-verification-in-the-war-in-ukrain))
+- How meme communities focused on political theory developed new ideas ([project page](https://vastapuhe.fi))
+- Mapping out European communities on unmoderated platforms such as Telegram, and building open infrastructure to facilitate their research ([project page](https://www.tuni.fi/en/research/everyday-affective-practices-online-producing-experiencing-and-managing-hate-speech))
+
+On this site, you can find links to my publications. If you’d like to read anything here and can’t access it, please feel free to [email](aleksi.knuutila@helsinki.fi) me for a copy.
 
 :::
 

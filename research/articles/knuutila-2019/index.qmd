@@ -1,0 +1,48 @@
+---
+title: 'Viha vallassa : Vihapuheen vaikutukset yhteiskunnalliseen päätöksentekoon'
+author: 
+- Aleksi Knuutila
+- Heidi Kosonen
+- Tuija Saresma
+- Paula Haara
+- "Reeta P\xF6yht\xE4ri"
+
+date: '2019-01-01'
+publisher: 'Valtioneuvoston kanslia'
+entry_type: 'book'
+publication: 'Valtioneuvoston kanslia'
+categories:
+- Finnish
+- Hate speech
+pub-info:
+  reference: '<strong>Aleksi Knuutila</strong>, Heidi Kosonen, Tuija Saresma, Paula Haara and Reeta Pöyhtäri, “Viha vallassa : Vihapuheen vaikutukset yhteiskunnalliseen päätöksentekoon,” <em>Valtioneuvoston kanslia</em>
+    
+    no. 2019:57 (2019)
+    '
+  links:
+    - name: Final version
+      url: http://urn.fi/URN:ISBN:978-952-287-786-4
+      icon: fa-solid fa-scroll
+    
+---
+
+
+
+## Citation
+
+
+
+```bibtex
+@book{Knuutila2019,
+ author = {Knuutila, Aleksi and Kosonen, Heidi and Saresma, Tuija and Haara, Paula and Pöyhtäri, Reeta},
+ isbn = {978-952-287-786-4},
+ number = {2019:57},
+ publisher = {Valtioneuvoston kanslia},
+ series = {Valtioneuvoston selvitys- ja tutkimustoiminnan julkaisusarja},
+ shorttitle = {Viha vallassa},
+ title = {Viha vallassa : Vihapuheen vaikutukset yhteiskunnalliseen päätöksentekoon},
+ url = {http://urn.fi/URN:ISBN:978-952-287-786-4},
+ year = {2019}
+}
+
+```

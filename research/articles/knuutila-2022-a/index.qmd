@@ -1,0 +1,40 @@
+---
+title: 'Sosiaalisen median moderointi ei ratkaise yhteiskunnallisia ongelmia'
+author: 
+- Aleksi Knuutila
+- "Riia J\xE4rvenp\xE4\xE4"
+
+date: '2022-01-01'
+entry_type: 'misc'
+publication: 'Politiikasta.fi'
+categories:
+- Content moderation
+- Finnish
+pub-info:
+  reference: '<strong>Aleksi Knuutila</strong> and Riia Järvenpää, “Sosiaalisen median moderointi ei ratkaise yhteiskunnallisia ongelmia,” <em>Politiikasta.fi</em>
+    
+     (2022)
+    '
+  links:
+    - name: Final version
+      url: https://politiikasta.fi/sosiaalisen-median-moderointi-ei-ratkaise-yhteiskunnallisia-ongelmia/
+      icon: fa-solid fa-scroll
+    
+---
+
+
+
+## Citation
+
+
+
+```bibtex
+@misc{Knuutila2022a,
+ author = {Knuutila, Aleksi and Järvenpää, Riia},
+ journal = {Politiikasta.fi},
+ title = {Sosiaalisen median moderointi ei ratkaise yhteiskunnallisia ongelmia},
+ url = {https://politiikasta.fi/sosiaalisen-median-moderointi-ei-ratkaise-yhteiskunnallisia-ongelmia/},
+ year = {2022}
+}
+
+```

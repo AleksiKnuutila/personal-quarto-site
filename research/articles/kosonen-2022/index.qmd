@@ -1,0 +1,63 @@
+---
+title: 'Verkkoviha väkivaltana – vihapuhetutkijoiden näkökulmia'
+author: 
+- Heidi Kosonen
+- Tuija Saresma
+- "Reeta P\xF6yht\xE4ri"
+- Paula Haara
+- Kaarina Nikunen
+- Aleksi Knuutila
+- Miia Tikka
+
+date: '2022-09-01'
+entry_type: 'article'
+doi: '10.23994/lk.121897'
+publication: 'Lähikuva – audiovisuaalisen kulttuurin tieteellinen julkaisu'
+categories:
+- Finnish
+- Hate speech
+pub-info:
+  reference: 'Heidi Kosonen, Tuija Saresma, Reeta Pöyhtäri, Paula Haara, Kaarina Nikunen, <strong>Aleksi Knuutila</strong> and Miia Tikka, “Verkkoviha väkivaltana – vihapuhetutkijoiden näkökulmia,” <em>Lähikuva – audiovisuaalisen kulttuurin tieteellinen julkaisu</em>
+    35, 
+    no. 3 (2022): pp. 74&ndash;82
+    , doi: <a href="https://doi.org/10.23994/lk.121897"><code>10.23994/lk.121897</code></a>'
+  links:
+    - name: Final version
+      url: https://doi.org/10.23994/lk.121897
+      icon: fa-solid fa-scroll
+    
+    - name: Add to Zotero
+      url: https://www.zotero.org/save?type=doi&q=10.23994/lk.121897
+      icon: ai ai-zotero
+    
+---
+
+
+
+## Citation
+
+
+
+<p class="buttons" style="text-align:center;">
+<a class="btn btn-danger" target="_blank" href="https://www.zotero.org/save?type=doi&q=10.23994/lk.121897">{{< ai zotero >}}&emsp;Add to Zotero {{< fa square-arrow-up-right >}}</a>
+</p>
+
+
+
+```bibtex
+@article{Kosonen2022,
+ author = {Kosonen, Heidi and Saresma, Tuija and Pöyhtäri, Reeta and Haara, Paula and Nikunen, Kaarina and Knuutila, Aleksi and Tikka, Miia},
+ doi = {10.23994/lk.121897},
+ issn = {2343-399X},
+ journal = {Lähikuva – audiovisuaalisen kulttuurin tieteellinen julkaisu},
+ month = {September},
+ number = {3},
+ pages = {74--82},
+ title = {Verkkoviha väkivaltana – vihapuhetutkijoiden näkökulmia},
+ url = {https://journal.fi/lahikuva/article/view/121897},
+ urldate = {2022-11-25},
+ volume = {35},
+ year = {2022}
+}
+
+```

@@ -1,0 +1,56 @@
+---
+title: 'Verkkoviha: Vihapuheen tuottajien ja levittäjien verkostot, toimintamuodot ja motiivit'
+author: 
+- Tuija Saresma
+- "Reeta P\xF6yht\xE4ri"
+- Aleksi Knuutila
+- Heidi Kosonen
+- Urho Tulonen
+- Kaarina Nikunen
+- Jenita Rauta
+- Marko Juutinen
+
+date: '2022-06-01'
+publisher: 'Valtioneuvoston kanslia'
+entry_type: 'book'
+publication: 'Valtioneuvoston kanslia'
+categories:
+- Finnish
+- Hate speech
+pub-info:
+  reference: 'Tuija Saresma, Reeta Pöyhtäri, <strong>Aleksi Knuutila</strong>, Heidi Kosonen, Urho Tulonen, Kaarina Nikunen, Jenita Rauta and Marko Juutinen, “Verkkoviha: Vihapuheen tuottajien ja levittäjien verkostot, toimintamuodot ja motiivit,” <em>Valtioneuvoston kanslia</em>
+    
+     (2022)
+    '
+  links:
+    - name: Final version
+      url: http://urn.fi/URN:ISBN:978-952-383-298-5
+      icon: fa-solid fa-scroll
+    
+---
+
+
+
+## Abstract
+
+Hankkeessa tutkittiin verkkovihan tuottajia ja levittäjiä määrällisesti (verkostoanalyysi, some-aineiston luokittelu) ja laadullisesti (teemat ja retoriikka). Heidän toimintatapojaan ja motiivejaan tarkasteltiin teemahaastatteluin, internet-etnografialla ja verkkokyselyllä. Tietoa tuotettiin myös rangaistavan vihapuheen tekijöistä ja heidän verkostoistaan. Viestinnän sisällön, toimintatapojen ja tapahtumapaikkojen tarkastelun perusteella tuottajat ja levittäjät luokiteltiin ideologisesti, affektiivisesti ja performatiivisesti motivoituneisiin vihapuhujiin. Limittäisillä ryhmillä on eri päämääriä ja viestit kohdistetaan eri yleisöille. Verkkovihaa tuotetaan sekä organisoidusti että spontaanisti.Organisoituneita tuottajia on vähän. Yleisö kierrättää viestejä moninkertaistaen niiden näkyvyyden. Anonyymeja tunnuksia luodaan kertakäyttöä varten.Viharikosten määrä on laskenut ja vihapuherikosten määrä kasvanut. Suurin osarangaistavasta vihapuheesta on yksittäisten henkilöiden tekemää. Pieni osa onkeskenään verkostoituneita äärioikeistolaisessa liikehdinnässä toimivia avainhenkilöitä.Vihapuheen kitkemiseen ehdotamme toimenpiteiksi tutkimustiedon tuottamista,verkkovihan tuottajien ja levittäjien tukimuotoja, tietoisuuden lisäämistä verkkovihan levittämisestä, verkkokeskustelujen seurantaa, some-alustojen vastuunkantoa, poliisin lisäresursseja ja vuoropuhelun edistämistä.Julkaisu on läpikäynyt ulkopuolisen tieteellisen arvioinnin.
+
+
+
+## Citation
+
+
+
+```bibtex
+@book{Saresma2022,
+ author = {Saresma, Tuija and Pöyhtäri, Reeta and Knuutila, Aleksi and Kosonen, Heidi and Tulonen, Urho and Nikunen, Kaarina and Rauta, Jenita and Juutinen, Marko},
+ month = {June},
+ publisher = {Valtioneuvoston kanslia},
+ series = {Valtioneuvoston selvitys- ja tutkimustoiminnan julkaisusarja 2022:48},
+ shorttitle = {Verkkoviha},
+ title = {Verkkoviha: Vihapuheen tuottajien ja levittäjien verkostot, toimintamuodot ja motiivit},
+ url = {http://urn.fi/URN:ISBN:978-952-383-298-5},
+ year = {2022}
+}
+
+```

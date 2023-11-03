@@ -1,0 +1,39 @@
+---
+title: 'Närkästyksen kone: miksi uusoikeiston ääni kuuluu verkossa muita vahvemmin'
+author: 
+- Aleksi Knuutila
+
+date: '2019-01-01'
+entry_type: 'misc'
+publication: 'Politiikasta.fi'
+categories:
+- Finnish
+- Political communication
+pub-info:
+  reference: '<strong>Aleksi Knuutila</strong>, “Närkästyksen kone: miksi uusoikeiston ääni kuuluu verkossa muita vahvemmin,” <em>Politiikasta.fi</em>
+    
+     (2019)
+    '
+  links:
+    - name: Final version
+      url: https://politiikasta.fi/narkastyksen-kone-miksi-uusoikeiston-aani-kuuluu-verkossa-muita-vahvemmin/
+      icon: fa-solid fa-scroll
+    
+---
+
+
+
+## Citation
+
+
+
+```bibtex
+@misc{Knuutila2019a,
+ author = {Knuutila, Aleksi},
+ journal = {Politiikasta.fi},
+ title = {Närkästyksen kone: miksi uusoikeiston ääni kuuluu verkossa muita vahvemmin},
+ url = {https://politiikasta.fi/narkastyksen-kone-miksi-uusoikeiston-aani-kuuluu-verkossa-muita-vahvemmin/},
+ year = {2019}
+}
+
+```
