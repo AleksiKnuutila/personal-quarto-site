@@ -9,6 +9,7 @@ twitter-card:
 open-graph:
   image: "tidne-og.png"
 aliases:
+  - /thisinequality
   - /thisinequalitydoesnotexist
   - /this-inequality-does-not-exist
   - /this_inequality_does_not_exist

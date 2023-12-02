@@ -2,7 +2,6 @@
 title: "About me"
 pagetitle: "{{< meta website.title >}}"
 main-photo: /files/profiles/aleksi.jpg
-main-photo-square: /files/profiles/andrew-heiss-2022-square.jpg
 #title-block-banner: "#CF4446"
 title-block-banner: "#CF4446"
 format:
