@@ -11,8 +11,6 @@ include-back-link: false
 toc-location: right
 ---
 
-My research has spans political communication and political communities online, as well as various online harms such as misinformation and abuse directed at politicians. My more recent work is focused on how to work with large datasets, for instance large volumes of images, in the humanities and social sciences.
-
 
 ## Articles
 
