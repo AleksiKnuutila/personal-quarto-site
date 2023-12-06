@@ -226,6 +226,10 @@ ul.task-list li input[type="checkbox"] {
   Education<br>
   <input id="input_edu" class="var_slider" type="range" min="-12" value="0" max="12" step="1" style="width: 300px;"><input type="hidden" id="latentcode" name="latentcode" value="36">
 </p>
+<p style="width: 300px;">
+Generated images from a model trained on photographs from London.
+The sliders change the features of the images according to what is typical for deprived or privileged areas.
+</p>
 </div>
 </div>
 </div>
@@ -238,7 +242,19 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="how-it-works">How it works</h2>
 <p>We connected the photographs from Streetview with data from the Indices of Multiple Deprivation, describing levels of income, education and environmental health across the city. The resulting GAN model generates novel, synthetic images of housing that can be manipulated according to these contextual variables.</p>
 <p>By pulling on the sliders next to images, you can compare the visual differences between privileged or deprived areas of the capital. It is a way to visualise an abstract social process, inequality in the city, that would otherwise be difficult to see.</p>
-<p>A technical paper describing the project will be available later.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>A <a href="http://knuutila.net/research/articles/knuutila-2023/">technical paper</a> and a <a href="http://aksemipublic.s3.eu-west-2.amazonaws.com/Knuutila%20poster.pdf">poster</a> explain how the model works in more detail.</p>
+</div>
+</div>
 <p>This inequality doesn’t exist is an experiment in trying out how models such as GANs can be used to produce knowledge. Latent space walks suggest a speculative configuration for knowledge production that relies on synthetic data and retains a role of interpretation by human participants. This process demonstrates the variety of uses that mathematical concepts and technical systems such as the latent spaces of generative models can be put to.</p>
 </section>
 <section id="who-made-this" class="level2">

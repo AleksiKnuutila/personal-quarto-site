@@ -2,106 +2,110 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://knuutila.net/research/index.html</loc>
-    <lastmod>2023-12-02T22:59:50.409Z</lastmod>
+    <lastmod>2023-12-06T09:58:59.675Z</lastmod>
   </url>
   <url>
     <loc>https://knuutila.net/research/articles/saresma-2022/index.html</loc>
-    <lastmod>2023-12-02T22:59:49.680Z</lastmod>
+    <lastmod>2023-12-06T09:58:58.919Z</lastmod>
   </url>
   <url>
     <loc>https://knuutila.net/research/articles/saresma-2019/index.html</loc>
-    <lastmod>2023-12-02T22:59:48.999Z</lastmod>
+    <lastmod>2023-12-06T09:58:58.240Z</lastmod>
   </url>
   <url>
     <loc>https://knuutila.net/research/articles/neudert-2020/index.html</loc>
-    <lastmod>2023-12-02T22:59:48.358Z</lastmod>
+    <lastmod>2023-12-06T09:58:57.565Z</lastmod>
   </url>
   <url>
-    <loc>https://knuutila.net/research/articles/knuutila-2022/index.html</loc>
-    <lastmod>2023-12-02T22:59:47.696Z</lastmod>
-  </url>
-  <url>
-    <loc>https://knuutila.net/research/articles/knuutila-2021/index.html</loc>
-    <lastmod>2023-12-02T22:59:47.023Z</lastmod>
-  </url>
-  <url>
-    <loc>https://knuutila.net/research/articles/knuutila-2020-c/index.html</loc>
-    <lastmod>2023-12-02T22:59:46.345Z</lastmod>
-  </url>
-  <url>
-    <loc>https://knuutila.net/research/articles/knuutila-2020-a/index.html</loc>
-    <lastmod>2023-12-02T22:59:45.660Z</lastmod>
-  </url>
-  <url>
-    <loc>https://knuutila.net/research/articles/knuutila-2019-a/index.html</loc>
-    <lastmod>2023-12-02T22:59:44.938Z</lastmod>
-  </url>
-  <url>
-    <loc>https://knuutila.net/research/articles/kannasto-2022/index.html</loc>
-    <lastmod>2023-12-02T22:59:44.240Z</lastmod>
-  </url>
-  <url>
-    <loc>https://knuutila.net/research/articles/herasimenka-2023-a/index.html</loc>
-    <lastmod>2023-12-02T22:59:43.535Z</lastmod>
-  </url>
-  <url>
-    <loc>https://knuutila.net/cv/index.html</loc>
-    <lastmod>2023-12-02T22:59:42.827Z</lastmod>
-  </url>
-  <url>
-    <loc>https://knuutila.net/blog/2023/09/28/thisinequalitydoesnotexist/index.html</loc>
-    <lastmod>2023-12-02T22:59:42.184Z</lastmod>
-  </url>
-  <url>
-    <loc>https://knuutila.net/atom.html</loc>
-    <lastmod>2023-12-02T22:59:41.811Z</lastmod>
-  </url>
-  <url>
-    <loc>https://knuutila.net/blog/index.html</loc>
-    <lastmod>2023-12-02T22:59:42.507Z</lastmod>
-  </url>
-  <url>
-    <loc>https://knuutila.net/index.html</loc>
-    <lastmod>2023-12-02T22:59:43.158Z</lastmod>
-  </url>
-  <url>
-    <loc>https://knuutila.net/research/articles/herasimenka-2023/index.html</loc>
-    <lastmod>2023-12-02T22:59:43.899Z</lastmod>
-  </url>
-  <url>
-    <loc>https://knuutila.net/research/articles/knuutila-2017/index.html</loc>
-    <lastmod>2023-12-02T22:59:44.607Z</lastmod>
-  </url>
-  <url>
-    <loc>https://knuutila.net/research/articles/knuutila-2019/index.html</loc>
-    <lastmod>2023-12-02T22:59:45.261Z</lastmod>
-  </url>
-  <url>
-    <loc>https://knuutila.net/research/articles/knuutila-2020-b/index.html</loc>
-    <lastmod>2023-12-02T22:59:45.988Z</lastmod>
-  </url>
-  <url>
-    <loc>https://knuutila.net/research/articles/knuutila-2020/index.html</loc>
-    <lastmod>2023-12-02T22:59:46.670Z</lastmod>
+    <loc>https://knuutila.net/research/articles/knuutila-2023/index.html</loc>
+    <lastmod>2023-12-06T09:58:56.900Z</lastmod>
   </url>
   <url>
     <loc>https://knuutila.net/research/articles/knuutila-2022-a/index.html</loc>
-    <lastmod>2023-12-02T22:59:47.346Z</lastmod>
+    <lastmod>2023-12-06T09:58:56.171Z</lastmod>
+  </url>
+  <url>
+    <loc>https://knuutila.net/research/articles/knuutila-2020/index.html</loc>
+    <lastmod>2023-12-06T09:58:55.452Z</lastmod>
+  </url>
+  <url>
+    <loc>https://knuutila.net/research/articles/knuutila-2020-b/index.html</loc>
+    <lastmod>2023-12-06T09:58:54.783Z</lastmod>
+  </url>
+  <url>
+    <loc>https://knuutila.net/research/articles/knuutila-2019/index.html</loc>
+    <lastmod>2023-12-06T09:58:54.062Z</lastmod>
+  </url>
+  <url>
+    <loc>https://knuutila.net/research/articles/knuutila-2017/index.html</loc>
+    <lastmod>2023-12-06T09:58:53.381Z</lastmod>
+  </url>
+  <url>
+    <loc>https://knuutila.net/research/articles/herasimenka-2023/index.html</loc>
+    <lastmod>2023-12-06T09:58:52.620Z</lastmod>
+  </url>
+  <url>
+    <loc>https://knuutila.net/index.html</loc>
+    <lastmod>2023-12-06T09:58:51.842Z</lastmod>
+  </url>
+  <url>
+    <loc>https://knuutila.net/blog/index.html</loc>
+    <lastmod>2023-12-06T09:58:51.215Z</lastmod>
+  </url>
+  <url>
+    <loc>https://knuutila.net/atom.html</loc>
+    <lastmod>2023-12-06T09:58:50.471Z</lastmod>
+  </url>
+  <url>
+    <loc>https://knuutila.net/blog/2023/09/28/thisinequalitydoesnotexist/index.html</loc>
+    <lastmod>2023-12-06T09:58:50.876Z</lastmod>
+  </url>
+  <url>
+    <loc>https://knuutila.net/cv/index.html</loc>
+    <lastmod>2023-12-06T09:58:51.506Z</lastmod>
+  </url>
+  <url>
+    <loc>https://knuutila.net/research/articles/herasimenka-2023-a/index.html</loc>
+    <lastmod>2023-12-06T09:58:52.246Z</lastmod>
+  </url>
+  <url>
+    <loc>https://knuutila.net/research/articles/kannasto-2022/index.html</loc>
+    <lastmod>2023-12-06T09:58:52.999Z</lastmod>
+  </url>
+  <url>
+    <loc>https://knuutila.net/research/articles/knuutila-2019-a/index.html</loc>
+    <lastmod>2023-12-06T09:58:53.702Z</lastmod>
+  </url>
+  <url>
+    <loc>https://knuutila.net/research/articles/knuutila-2020-a/index.html</loc>
+    <lastmod>2023-12-06T09:58:54.445Z</lastmod>
+  </url>
+  <url>
+    <loc>https://knuutila.net/research/articles/knuutila-2020-c/index.html</loc>
+    <lastmod>2023-12-06T09:58:55.127Z</lastmod>
+  </url>
+  <url>
+    <loc>https://knuutila.net/research/articles/knuutila-2021/index.html</loc>
+    <lastmod>2023-12-06T09:58:55.825Z</lastmod>
+  </url>
+  <url>
+    <loc>https://knuutila.net/research/articles/knuutila-2022/index.html</loc>
+    <lastmod>2023-12-06T09:58:56.531Z</lastmod>
   </url>
   <url>
     <loc>https://knuutila.net/research/articles/kosonen-2022/index.html</loc>
-    <lastmod>2023-12-02T22:59:48.035Z</lastmod>
+    <lastmod>2023-12-06T09:58:57.242Z</lastmod>
   </url>
   <url>
     <loc>https://knuutila.net/research/articles/poikola-2020/index.html</loc>
-    <lastmod>2023-12-02T22:59:48.680Z</lastmod>
+    <lastmod>2023-12-06T09:58:57.897Z</lastmod>
   </url>
   <url>
     <loc>https://knuutila.net/research/articles/saresma-2020/index.html</loc>
-    <lastmod>2023-12-02T22:59:49.322Z</lastmod>
+    <lastmod>2023-12-06T09:58:58.572Z</lastmod>
   </url>
   <url>
     <loc>https://knuutila.net/research/articles/seta-2023/index.html</loc>
-    <lastmod>2023-12-02T22:59:50.044Z</lastmod>
+    <lastmod>2023-12-06T09:58:59.289Z</lastmod>
   </url>
 </urlset>

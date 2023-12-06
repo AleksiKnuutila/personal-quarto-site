@@ -2,6 +2,7 @@
   {
     "listing": "/research/index.html",
     "items": [
+      "/research/articles/knuutila-2023/index.html",
       "/research/articles/seta-2023/index.html",
       "/research/articles/herasimenka-2023-a/index.html",
       "/research/articles/herasimenka-2023/index.html",
@@ -25,13 +26,13 @@
     ]
   },
   {
-    "listing": "/atom.html",
+    "listing": "/blog/index.html",
     "items": [
       "/blog/2023/09/28/thisinequalitydoesnotexist/index.html"
     ]
   },
   {
-    "listing": "/blog/index.html",
+    "listing": "/atom.html",
     "items": [
       "/blog/2023/09/28/thisinequalitydoesnotexist/index.html"
     ]
