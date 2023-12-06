@@ -47,6 +47,10 @@ format:
   Education<br>
   <input id="input_edu" class="var_slider" type="range" min="-12" value="0" max="12" step="1" style="width: 300px;"><input type="hidden" id="latentcode" name="latentcode" value="36">
 </p>
+<p style="width: 300px;">
+Generated images from a model trained on photographs from London.
+The sliders change the features of the images according to what is typical for deprived or privileged areas.
+</p>
 ```
 
 :::
@@ -67,7 +71,11 @@ We connected the photographs from Streetview with data from the Indices of Multi
 
 By pulling on the sliders next to images, you can compare the visual differences between privileged or deprived areas of the capital. It is a way to visualise an abstract social process, inequality in the city, that would otherwise be difficult to see.
 
-A technical paper describing the project will be available later.
+::: {.callout-note}
+
+A [technical paper](http://knuutila.net/research/articles/knuutila-2023/) and a [poster](http://aksemipublic.s3.eu-west-2.amazonaws.com/Knuutila%20poster.pdf) explain how the model works in more detail.
+
+:::
 
 This inequality doesn't exist is an experiment in trying out how models such as GANs can be used to produce knowledge. Latent space walks suggest a speculative configuration for knowledge production that relies on synthetic data and retains a role of interpretation by human participants. This process demonstrates the variety of uses that mathematical concepts and technical systems such as the latent spaces of generative models can be put to.
 

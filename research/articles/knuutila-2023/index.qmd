@@ -1,0 +1,64 @@
+---
+title: 'Generative models for visualising abstract social processes: Guiding streetview image synthesis of StyleGAN2 with indices of deprivation'
+author: 
+- Aleksi Knuutila
+
+date: '2023-12-01'
+publisher: 'arXiv'
+entry_type: 'misc'
+doi: '10.48550/arXiv.2312.00570'
+publication: 'arXiv'
+categories:
+- Computer Science - Computer Vision and Pattern Recognition
+pub-info:
+  reference: 'Aleksi Knuutila, “Generative models for visualising abstract social processes: Guiding streetview image synthesis of StyleGAN2 with indices of deprivation,” <em>arXiv</em>
+    
+    no. arXiv:2312.00570 (2023)
+    , doi: <a href="https://doi.org/10.48550/arXiv.2312.00570"><code>10.48550/arXiv.2312.00570</code></a>'
+  links:
+    - name: Final version
+      url: https://doi.org/10.48550/arXiv.2312.00570
+      icon: fa-solid fa-scroll
+    
+    - name: Add to Zotero
+      url: https://www.zotero.org/save?type=doi&q=10.48550/arXiv.2312.00570
+      icon: ai ai-zotero
+    
+---
+
+
+
+## Abstract
+
+This paper presents a novel application of Generative Adverserial Networks (GANs) to study visual aspects of social processes. I train a a StyleGAN2-model on a custom dataset of 14,564 images of London, sourced from Google Streetview taken in London. After training, I invert the images in the training set, finding points in the model's latent space that correspond to them, and compare results from three inversion techniques. I connect each data point with metadata from the Indices of Multiple Deprivation, describing income, health and environmental quality in the area where the photographs were taken. It is then possible to map which parts of the model's latent space encode visual features that are distinctive for health, income and environmental quality, and condition the synthesis of new images based on these factors. The synthetic images created reflect visual features of social processes that were previously unknown and difficult to study, describing recurring visual differences between deprived and privileged areas in London. GANs are known for their capability to produce a continuous range of images that exhibit visual differences. The paper tests how to exploit this ability through visual comparisons in still images as well as through an interactive website where users can guide image synthesis with sliders. Though conditioned synthesis has its limitations and the results are difficult to validate, the paper points to the potential for generative models to be repurposed to be parts of social scientific methods.
+
+
+
+## Citation
+
+
+
+<p class="buttons" style="text-align:center;">
+<a class="btn btn-danger" target="_blank" href="https://www.zotero.org/save?type=doi&q=10.48550/arXiv.2312.00570">{{< ai zotero >}}&emsp;Add to Zotero {{< fa square-arrow-up-right >}}</a>
+</p>
+
+
+
+```bibtex
+@misc{Knuutila2023,
+ archiveprefix = {arxiv},
+ author = {Knuutila, Aleksi},
+ doi = {10.48550/arXiv.2312.00570},
+ eprint = {2312.00570},
+ month = {December},
+ number = {arXiv:2312.00570},
+ primaryclass = {cs},
+ publisher = {arXiv},
+ shorttitle = {Generative models for visualising abstract social processes},
+ title = {Generative models for visualising abstract social processes: Guiding streetview image synthesis of StyleGAN2 with indices of deprivation},
+ url = {http://arxiv.org/abs/2312.00570},
+ urldate = {2023-12-06},
+ year = {2023}
+}
+
+```
