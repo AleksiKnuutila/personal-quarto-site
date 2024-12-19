@@ -1,0 +1,8 @@
+html:
+  header-includes:
+    - |
+      <script>
+        if (!window.location.pathname.includes('thisinequality')) {
+          window.location.replace('https://researchportal.helsinki.fi/fi/persons/aleksi-knuutila');
+        }
+      </script>
