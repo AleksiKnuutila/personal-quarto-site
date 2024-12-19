@@ -10,13 +10,14 @@
 <atom:link href="https://knuutila.net/atom.xml" rel="self" type="application/rss+xml"/>
 <description>Aleksi Knuutila&#39;s blog</description>
 <language>en</language>
-<generator>quarto-1.3.450</generator>
+<generator>quarto-1.6.39</generator>
 <lastBuildDate>Thu, 28 Sep 2023 21:00:00 GMT</lastBuildDate>
 <item>
   <title>This inequality does not exist - Generative AI for social science</title>
   <dc:creator>Aleksi Knuutila</dc:creator>
-  <link>https://knuutila.net/blog/2023/09/28/thisinequalitydoesnotexist/index.html</link>
+  <link>https://knuutila.net/blog/2023/09/28/thisinequalitydoesnotexist/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -24,7 +25,7 @@
 <div class="column-page-inset-right">
 <div class="grid">
 <div class="g-col-12 g-col-xl-7 keep-large">
-<img class="image" id="projimg" src="https://knuutila.net/blog/2023/09/28/thisinequalitydoesnotexist/https:/causewegangangan.s3.eu-west-2.amazonaws.com/sg2proj_combined_inference_precise/1/proj_styleganproj_edu0_health0_inc0_code36.jpg" style="margin-bottom: 10px; max-width: 100%">
+<img class="image" id="projimg" src="https://causewegangangan.s3.eu-west-2.amazonaws.com/sg2proj_combined_inference_precise/1/proj_styleganproj_edu0_health0_inc0_code36.jpg" style="margin-bottom: 10px; max-width: 100%">
 </div>
 <div class="g-col-12 g-col-xl-4">
 <p class="text text-large">
@@ -75,7 +76,7 @@ Note
 </section>
 
  ]]></description>
-  <guid>https://knuutila.net/blog/2023/09/28/thisinequalitydoesnotexist/index.html</guid>
+  <guid>https://knuutila.net/blog/2023/09/28/thisinequalitydoesnotexist/</guid>
   <pubDate>Thu, 28 Sep 2023 21:00:00 GMT</pubDate>
   <media:content url="https://knuutila.net/blog/2023/09/28/thisinequalitydoesnotexist/tidne.gif" medium="image" type="image/gif"/>
 </item>
